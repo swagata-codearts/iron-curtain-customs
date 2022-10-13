@@ -83,7 +83,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 0 150px;
+    padding: 100px 0 0;
     position: relative;
   }
   .footer-1-content p {
@@ -141,5 +141,17 @@
   }
   .footer-2-content {
     margin-left: 120px;
+  }
+  .copyright {
+    text-align: center;
+    border-top: 1px solid #494949;
+    margin-top: 72px;
+  }
+  .copyright p {
+    font-family: var(--ff-secondary);
+    color: var(--c-light-grey);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 25px 0;
   }
 /*footer-end*/
