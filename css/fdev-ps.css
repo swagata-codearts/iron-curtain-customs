@@ -3,10 +3,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 83px 240px;
+    padding: 83px 240px 120px 240px;
+    position: relative;
+}
+.counter-section .counter-bottom-img{
+    position: absolute;
+    top: 81%;
+    transform: translateX(5%);
+}
+.counter-section .counter-bottom-img img{
+    width: 55%;    
 }
 .counter-section .counter-wrap{
     text-align: center;
+    border-right: 1px solid var(--c-grey);
 }
 .counter-section .counter-wrap p{
     font-family: var(--ff-primary) ;
@@ -22,10 +32,53 @@
     font-size: 60px;
     line-height: 51px;
 }
+.get-in-touch{
+    padding: 200px 100px 86px ;
+}
 .get-in-touch .get-in-heading h4{
     font-family: var(--ff-primary);
     font-weight: 500;
     font-size: 30px;
     line-height: 40px;
     color: var(--c-secondary-text);
+    padding-bottom: 28px;
 }
+.get-in-touch .get-in-text p,.get-in-touch .get-in-text ul li{
+    font-family: var(--ff-secondary);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    color: var(--c-semi-grey);
+}
+.get-in-touch .get-in-text p{
+    padding-bottom: 10px;
+}
+.get-in-touch .get-in-text{
+    padding-bottom: 20px;
+}
+.get-in-touch .get-in-map-heading h5{
+font-family: var(--ff-primary);
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: var(--c-primary-text);
+padding-bottom: 50px;
+}
+.get-in-touch .get-in-left .get-in-map iframe{
+    width: 540px;
+    height: 305px;
+}
+.get-in-touch .get-in-right .get-in-form input,.get-in-touch .get-in-right .get-in-form textarea{
+    margin-bottom: 19px;
+    font-size: 13px;
+    line-height: 37px;
+    border: 2px solid var(--c-grey-100);
+    padding: 4px 22px;
+}
+.get-in-touch .get-in-right .get-in-form textarea{
+    height: 227px;
+}
+.get-in-touch .get-in-right .get-in-form .form-btn a {
+    padding: 12px 239px;
+}
+   
