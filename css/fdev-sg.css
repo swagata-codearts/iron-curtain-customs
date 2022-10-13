@@ -80,8 +80,6 @@ margin-top: 60px;
 width: 8px;
 height: 8px;
 margin-right: 13px;
-background-color: var(--c-white);
-border: 0;
 border-top: none;
 border-bottom: none;
 opacity: 1;
@@ -128,9 +126,6 @@ padding: 10px 0;
 .footer-wrap .footer-list {
 margin-top: 50px;
 }
-.footer-wrap .footer-list-short {
-margin-top: 74px;
-}
 .footer-wrap .footer-list-short li {
 padding: 8px 0;
 }
@@ -152,7 +147,7 @@ color: var(--c-primary-text);
 .footer-wrap .footer-list li a:hover {
 color: var(--c-primary-text);
 }
-.footer-4-content span {
+.footer-3-content span {
 margin-right: 12px;
 color: var(--c-primary-text);
 font-size: 14px;
