@@ -69,12 +69,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /******** Utility Classes ********/
-/*
+
 .container {
   width: 100%;
-  max-width: 1360px;
+  max-width: 1440px;
 }
-*/
+
 
 .custom-pad {
   padding: 60px 0;
