@@ -3,12 +3,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 83px 240px;
+    padding: 83px 240px 120px 240px;
     position: relative;
 }
 .counter-section .counter-bottom-img{
     position: absolute;
-    top: 78%;
+    top: 81%;
     transform: translateX(5%);
 }
 .counter-section .counter-bottom-img img{
