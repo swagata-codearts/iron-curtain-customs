@@ -75,6 +75,28 @@
   .banner-button .custom-button {
     margin-top: 60px;
   }
+  .banner .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: var(--c-white);
+    background-clip: padding-box;
+    border: 0;
+    border-top: none;
+    border-bottom: none;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50px;
+  }
+  .banner .carousel-indicators [data-bs-target]:hover {
+    background-color:var(--c-primary-text);
+  }
 /*banner-end*/
 
 /*footer-start*/
