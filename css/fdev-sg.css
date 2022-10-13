@@ -52,6 +52,10 @@
     font-size: 16px;
     line-height: 38px;
   }
+  .header-icon a:hover {
+    background-color: var(--c-primary-text);
+    color: var(--c-white);
+  }
 
 /*header-end*/ 
 
@@ -62,8 +66,15 @@
 }
 .banner .carousel-caption.d-none.d-md-block {
     position: absolute;
-    top: 50%;
+    top: 35%;
   }
-
+  .banner h1 {
+    font-family: var(--ff-primary);
+    font-size: 86px;
+    font-weight: 800;
+  }
+  .banner-button .custom-button {
+    margin-top: 50px;
+  }
 
 /*banner-end*/
