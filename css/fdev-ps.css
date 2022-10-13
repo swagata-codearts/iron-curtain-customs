@@ -1,0 +1,31 @@
+.counter-section{
+    background-image: url(../images/stats-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 83px 240px;
+}
+.counter-section .counter-wrap{
+    text-align: center;
+}
+.counter-section .counter-wrap p{
+    font-family: var(--ff-primary) ;
+    font-size:25px ;
+    font-weight: 700;
+    line-height: 51px;
+    color: var(--c-white);
+}
+.counter-section .counter-wrap h3{
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    color:  var(--c-primary-text);
+    font-size: 60px;
+    line-height: 51px;
+}
+.get-in-touch .get-in-heading h4{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--c-secondary-text);
+}
