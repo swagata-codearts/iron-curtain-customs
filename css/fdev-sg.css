@@ -33,7 +33,7 @@
     transition: all 0.3s ease-in-out;
   }
   .custom-header .nav-item .nav-link:hover {
-    color: var(--c-primary-text);
+    color: var(--c-primary-text); 
   }
 
 
