@@ -23,7 +23,7 @@ font-family: var(--ff-primary);
 font-size: 18px;
 font-weight: 500;
 text-decoration: none;
-color: var(--c-white);
+color: var(--c-primary-text);
 transition: all 0.3s ease-in-out;
 }
 .custom-header .nav-item .nav-link.active:hover {
@@ -31,11 +31,12 @@ color: var(--c-primary-text);
 }
 .custom-header .nav-item .nav-link {
 font-family: var(--ff-primary);
-font-size: 18px;
+font-size: 16px;
 font-weight: 500;
 text-decoration: none;
 color: var(--c-white);
 transition: all 0.3s ease-in-out;
+text-transform: uppercase;
 }
 .custom-header .nav-item .nav-link:hover {
 color: var(--c-primary-text); 
@@ -76,27 +77,22 @@ font-weight: 800;
 margin-top: 60px;
 }
 .banner .carousel-indicators [data-bs-target] {
-box-sizing: content-box;
-flex: 0 1 auto;
 width: 8px;
 height: 8px;
-padding: 0;
 margin-right: 13px;
-margin-left: 3px;
-text-indent: -999px;
-cursor: pointer;
 background-color: var(--c-white);
-background-clip: padding-box;
 border: 0;
 border-top: none;
 border-bottom: none;
 opacity: 1;
-transition: all 0.2s ease-in-out;
 border-radius: 50px;
 }
 .banner .carousel-indicators [data-bs-target]:hover {
 background-color:var(--c-primary-text);
 }
+.banner .carousel-indicators [data-bs-target].active {
+    background-color: var(--c-primary-text);
+  }
 /*banner-end*/
 
 /*footer-start*/
