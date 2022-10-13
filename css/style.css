@@ -176,8 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 51px;
   margin-top: 40px;
 }
-/*(use it when the heading need to be center of a section and put this class after parent class)*/
-/*.custom-heading {
-  text-align: center;
-}*/
+.custom-heading {
+  padding: 100px 0;
+}
 /*custom-heading-end*/
