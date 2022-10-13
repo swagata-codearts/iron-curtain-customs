@@ -8,12 +8,15 @@
 }
 .counter-section .counter-bottom-img{
     position: absolute;
-    top: 81%;
-    transform: translateX(5%);
+    bottom: -115px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
 }
-.counter-section .counter-bottom-img img{
+/* .counter-section .counter-bottom-img img{
     width: 55%;    
-}
+} */
 .counter-section .counter-wrap{
     text-align: center;
     border-right: 1px solid var(--c-grey);
