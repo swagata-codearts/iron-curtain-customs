@@ -1,1 +1,28 @@
-/*supriyo*/ 
+/*header-start*/ 
+.custom-header {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+  }
+.custom-header .ms-auto {
+    margin-left: 0 !important;
+  }
+.custom-header .header-icon {
+    margin-right: 60px;
+  }
+
+
+/*header-end*/ 
+
+/*banner-start*/
+.banner {
+    position: relative;
+    z-index: 1;
+}
+.banner .carousel-caption.d-none.d-md-block {
+    position: absolute;
+    top: 50%;
+  }
+
+
+/*banner-end*/
