@@ -2,6 +2,9 @@
 .about-us {
   padding: 140px 0 180px 0;
 }
+.about-us .custom-heading {
+  padding: 0;
+}
 
 .upper-img {
   position: relative;
