@@ -1,0 +1,12 @@
+.counter-section{
+    background-image: url(../images/stats-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-in-touch .get-in-heading h4{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}

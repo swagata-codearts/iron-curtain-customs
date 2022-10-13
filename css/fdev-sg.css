@@ -18,7 +18,7 @@
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    color: #000;
+    color: var(--c-white);
   }
   .custom-header .nav-item .nav-link.active:hover {
 
@@ -28,10 +28,10 @@
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-    color: #000;
+    color: var(--c-white);
   }
   .custom-header .nav-item .nav-link:hover {
-    
+
   }
 
 
