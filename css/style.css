@@ -12,12 +12,23 @@
   --c-black-text: #000000;
   --c-light-grey: #C0C0C0;
   --c-dark-grey: #4F4F4F;
+  
   --c-primary-text: #FF5600;
   --c-secondary-text: #2D2D2D;
   --c-semi-grey: #666666;
+
   --ff-primary: 'Montserrat', sans-serif;
 }
 */
+:root {  
+  --c-primary-text: #ed2024;  
+  --c-secondary-text: #2b2b2b;
+  --c-white: #ffffff;
+  --c-semi-grey: #646464;
+  --c-light-grey: #d3d3d3;
+
+  --ff-primary: 'Montserrat', sans-serif;
+}
 
 /******** CSS Resets ********/
 * {
