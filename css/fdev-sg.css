@@ -1,1 +1,53 @@
-/*supriyo*/ 
+/*header-start*/ 
+.custom-header {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+  }
+.custom-header .ms-auto {
+    margin-left: 0 !important;
+  }
+.custom-header .header-icon {
+    margin-right: 60px;
+  }
+.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    width: 90%;
+  }
+  .custom-header .nav-item .nav-link.active {
+    font-family: var(--ff-primary);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--c-white);
+    transition: all 0.3s ease-in-out;
+  }
+  .custom-header .nav-item .nav-link.active:hover {
+    color: var(--c-primary-text);
+  }
+  .custom-header .nav-item .nav-link {
+    font-family: var(--ff-primary);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--c-white);
+    transition: all 0.3s ease-in-out;
+  }
+  .custom-header .nav-item .nav-link:hover {
+    color: var(--c-primary-text);
+  }
+
+
+/*header-end*/ 
+
+/*banner-start*/
+.banner {
+    position: relative;
+    z-index: 1;
+}
+.banner .carousel-caption.d-none.d-md-block {
+    position: absolute;
+    top: 50%;
+  }
+
+
+/*banner-end*/
