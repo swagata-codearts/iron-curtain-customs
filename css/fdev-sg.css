@@ -203,8 +203,7 @@ padding: 25px 0;
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-.custom-header .nav-item {margin-left: 22px;}
-.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end !important;}
+/*.custom-header .nav-item {margin-left: 22px;}*/
 
 }
 
