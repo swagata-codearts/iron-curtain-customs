@@ -150,7 +150,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
-  line-height: auto;
 }
 .custom-button:hover {
   color: var(--c-primary-text);
