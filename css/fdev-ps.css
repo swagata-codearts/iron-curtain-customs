@@ -25,9 +25,10 @@
 }
 .counter-section .count-number-and-unit span,.counter-section .count-number-and-unit{
     font-family: var(--ff-primary);
-    font-weight: 700;
+    font-weight: 800;
     color:  var(--c-primary-text);
     font-size: 60px;
+    letter-spacing: 0.40px;
 }
 .counter-section .counter-box {
     padding: 21px 0px;
@@ -42,9 +43,10 @@
   }
 .get-in-touch .get-in-heading h4{
     font-family: var(--ff-primary);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     line-height: 40px;
+    letter-spacing: 0.40px;
     color: var(--c-secondary-text);
     padding-bottom: 30px;
 }
@@ -66,8 +68,9 @@
 }
 .get-in-touch .get-in-map-heading h5{
 font-family: var(--ff-primary);
-font-weight: 500;
+font-weight: 600;
 font-size: 20px;
+letter-spacing: 0.40px;
 color: var(--c-primary-text);
 padding-bottom: 58px;
 }
