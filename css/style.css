@@ -168,6 +168,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 19px;
   font-weight: 400;
   color: var(--c-primary-text);
+  text-transform: uppercase;
 }
 .custom-heading h3 {
   font-family: var(--ff-primary);
