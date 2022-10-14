@@ -83,7 +83,7 @@ right: 0%;
 left: 0%;
 }
 .main-banner .carousel-indicators {
-    margin-bottom: 42px;
+margin-bottom: 42px;
 }
 .main-banner h1 {
 font-family: var(--ff-primary);
@@ -92,7 +92,7 @@ font-weight: 800;
 line-height: 100px;
 }
 .banner-button .custom-button {
-    margin-top: 56px;
+margin-top: 56px;
 }
 .main-banner .carousel-indicators [data-bs-target] {
 width: 8px;
@@ -133,7 +133,7 @@ letter-spacing: 0.6px;
 margin-top: 45px;
 }
 .footer-1-content .footer-img li {
-    display: inline-block;
+display: inline-block;
 }
 .footer-wrap .footer-heading {
 font-family: var(--ff-primary);
