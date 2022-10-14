@@ -160,26 +160,28 @@ h1, h2, h3, h4, h5, h6 {
 /*custom-button-end*/
 
 /*custom-heading-start*/
-.custom-heading span {
+.custom-heading h5 {
   display: inline-block;
-}
-.custom-heading span h5 {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px;
+  text-transform: uppercase;
   font-family: var(--ff-primary);
   font-size: 19px;
   font-weight: 400;
   color: var(--c-primary-text);
-  text-transform: uppercase;
+}
+.custom-heading h5 span {
+  padding-right: 10px;
+}
+.custom-heading h5 span img {
+  vertical-align: revert;
 }
 .custom-heading h3 {
   font-family: var(--ff-primary);
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   color:var(--c-secondary-text);
   text-transform: uppercase;
   line-height: 51px;
-  margin-top: 40px;
+  margin-top: 37px;
+  letter-spacing: 0.4px;
 }
 /*custom-heading-end*/
