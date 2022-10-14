@@ -203,7 +203,8 @@ padding: 25px 0;
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-	
+	.custom-header .nav-item {margin-left: 22px;}
+    .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end !important;}
 
 }
 
@@ -319,7 +320,7 @@ padding: 25px 0;
 }
 
 @media only screen and (max-width: 991.98px) {    
-    .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 26px;}
+    .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 15px;}
     .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
     .custom-header .nav-item .nav-link {font-size: 13px;}
     .custom-header .nav-item .nav-link.active {font-size: 13px;}
@@ -356,14 +357,14 @@ padding: 25px 0;
     .footer-wrap .footer-list li a {font-size: 11px;}
     .copyright p {font-size: 12px;}
 
-.navbar-toggler {border: none;height: 35px; float: left;margin: 0; height: 45px; width: 45px; border-radius: 4px;z-index: 1;background-color: var(--c-primary-text);}
-.navbar-toggler .icon-bar { width: 24px; background:var(--c-white) ;transition: .5s ease;}
-.navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
-.navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
-.navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}
-.navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
-.navbar-toggler .icon-bar:nth-child(3){opacity: 0}
-.navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
+.custom-header .navbar-toggler {border: none;height: 35px; float: left;margin: 0; height: 45px; width: 45px; border-radius: 4px;z-index: 1;background-color: var(--c-primary-text);}
+.custom-header .navbar-toggler .icon-bar { width: 24px; background:var(--c-white) ;transition: .5s ease;}
+.custom-header .navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
+.custom-header .navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
+.custom-header .navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}
+.custom-header .navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
+.custom-header .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
+.custom-header .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 }
 
 
@@ -378,13 +379,36 @@ padding: 25px 0;
     .copyright {margin-top: 40px;}
     .footer-wrap .footer-break-list li a {font-size: 13px;}
     .footer-wrap .footer-list li a {font-size: 13px;}
+    .custom-header .navbar-toggler {height: 35px;}
+    .main-banner .d-md-block {display: block !important;}
+    .main-banner h1 {font-size: 28px;line-height: 32px;}
+    .main-banner .carousel-caption.d-none.d-md-block {padding: 0 150px;}
+    .banner-button .custom-button {margin-top: 25px;}
+    .custom-header .header-icon {top: 1px;}
+    .footer-wrap .footer-break-list {margin-top: 30px;}
+    .footer-wrap .footer-list {margin-top: 30px;}
 }
 
 @media (max-width: 575.98px){
-    
+    .main-banner h1 {font-size: 22px;line-height: 30px;}
+    .banner-button .custom-button {margin-top: 15px;}
+    .main-banner .carousel-indicators {margin-bottom: 10px;}
+    .main-banner .carousel-caption.d-none.d-md-block {padding: 0 80px;}
+    .main-banner .carousel-caption.d-none.d-md-block {top: 40%;}
+    .banner-button .custom-button {margin-top: 25px;}
+    .header-icon {display: none;}
+    .custom-header {margin-top: 10px;}
+    .navbar-brand.header-logo.ms-0.py-0 img {width: 150px;}
+    .custom-header .navbar-toggler {height: 35px;border-radius: 3px;}
+    .footer-logo img {width: 70%;}
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+    .main-banner .carousel-indicators {display: none;}
+    .main-banner h1 {font-size:20px;line-height: 22px;}
+    .banner-button .custom-button {margin-top: 15px;}
+    .main-banner .carousel-caption.d-none.d-md-block {padding: 0 15px;}
+    .main-banner .carousel-caption.d-none.d-md-block {top: 46%;}
+
 }
 /*Responsive-end*/

@@ -46,6 +46,6 @@
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+    .banner-button .custom-button {padding: 6px 28px 6px;}
 }
 
