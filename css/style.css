@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 .custom-button {
   background-color: var(--c-primary-text);
   color: var(--c-white);
-  padding: 24px 50px;
+  padding: 13px 50px 15px;
   font-family: var(--ff-primary);
   font-weight: 600;
   font-size: 16px;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
-  line-height: .01;
+  line-height: auto;
 }
 .custom-button:hover {
   color: var(--c-primary-text);
