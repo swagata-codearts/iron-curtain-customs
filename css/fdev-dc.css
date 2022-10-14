@@ -2,6 +2,9 @@
 .about-us {
   padding: 140px 0 180px 0;
 }
+.about-us .custom-heading {
+  padding: 0;
+}
 
 .upper-img {
   position: relative;
@@ -29,7 +32,7 @@
 
 /*--------------our-product-start-------------*/
 .our-product {
-  padding: 100px 0;
+  padding: 0 0 60px 0;
   background-image: url(../images/product-bg.jpg);
   text-align: center;
   background-size: cover;
@@ -49,7 +52,21 @@
   padding-top: 25px;
 }
 
+.our-product .custom-heading h3{
+  color: var(--c-grey-100);
+}
+
 /*--------------our-product-end-------------*/
+
+/*------------custom-gallery-start----------------*/
+
+.custom-gallery {
+  text-align: center;
+  padding: 0 0 60px 0;
+  background-color: #fff;
+}
+
+/*------------custom-gallery-end----------------*/
 
 
 
