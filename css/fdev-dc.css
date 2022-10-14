@@ -51,7 +51,7 @@
 }
 
  .item:hover img{
-  transform: scale(1.1);
+  transform: scale(0.95);
 }
 
 .item{
@@ -76,13 +76,8 @@
   padding-bottom: 80px;
 }
 
-.our-product .owl-carousel .owl-dots{
-  display: inline list-item;
-  position: absolute;
-  padding: 10px;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.our-product .product-owl-wrap {
+  padding: 0 5%;
 }
 
 /*--------------our-product-end-------------*/
@@ -113,6 +108,7 @@
 .custom-gallery .custom-heading h3{
   padding-bottom: 80px;
 }
+
 /*------------custom-gallery-end----------------*/
 
 
