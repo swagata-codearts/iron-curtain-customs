@@ -79,7 +79,7 @@
     width: 552px;
     height: 315px;
 }
-.get-in-touch .get-in-right .get-in-form input,.get-in-touch .get-in-right .get-in-form textarea{    
+.get-in-touch .get-in-right .get-in-form .form-wrap input,.get-in-touch .get-in-right .get-in-form .form-wrap textarea{    
     font-size: 13px;
     border: 2px solid var(--c-grey-100);
     padding: 15px 22px;
@@ -88,10 +88,26 @@
 .get-in-touch .get-in-right .get-in-form textarea{
     height: 227px;
 }
-.get-in-touch .get-in-right .get-in-form .form-btn a{
+.get-in-touch .get-in-right .get-in-form .form-btn input{
+    background-color: var(--c-primary-text);
+    color: var(--c-white);
+    padding: 13px 50px 15px;
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
     width: 100%;
 }
-
+.get-in-touch .get-in-right .get-in-form .form-btn input:hover{
+    color: var(--c-primary-text);
+    background-color: var(--c-white);
+    border: 2px solid var(--c-primary-text);
+}
 
 @media (min-width: 1920px) and (max-width: 2500px){
 	
