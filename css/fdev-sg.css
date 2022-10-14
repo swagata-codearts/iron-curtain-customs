@@ -117,7 +117,7 @@ background-image: url(../images/footer-bg.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-padding: 100px 0 0;
+padding: 110px 0 0;
 position: relative;
 }
 .footer-1-content p {
@@ -126,7 +126,8 @@ color: var(--c-light-grey);
 font-size: 14px;
 font-weight: 400;
 line-height: 29px;
-margin-top: 64px;
+margin-top: 58px;
+letter-spacing: 0.6px;
 }
 .footer-1-content .footer-1-img {
 margin-top: 45px;
