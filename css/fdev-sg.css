@@ -139,6 +139,7 @@ color: var(--c-white);
 font-size: 18px;
 font-weight: 600;
 text-transform: uppercase;
+line-height: 0.9;
 }
 .footer-wrap .footer-list li {
 padding: 10px 0px;
