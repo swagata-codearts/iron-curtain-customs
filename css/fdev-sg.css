@@ -129,8 +129,11 @@ line-height: 29px;
 margin-top: 58px;
 letter-spacing: 0.6px;
 }
-.footer-1-content .footer-1-img {
+.footer-1-content .footer-img {
 margin-top: 45px;
+}
+.footer-1-content .footer-img li {
+    display: inline-block;
 }
 .footer-wrap .footer-heading {
 font-family: var(--ff-primary);
@@ -184,7 +187,7 @@ margin-left: 120px;
 .copyright {
 text-align: center;
 border-top: 1px solid #494949;
-margin-top: 72px;
+margin-top: 77px;
 }
 .copyright p {
 font-family: var(--ff-secondary);
