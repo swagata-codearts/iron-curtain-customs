@@ -7,20 +7,20 @@
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
-    .custom-button {padding: 24px 50px;font-size: 14px;}
+    .custom-button {padding: 13px 50px 15px;;font-size: 14px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
-	.custom-button {padding: 18px 30px;font-size: 13px;}
+	.custom-button {padding: 10px 28px 10px;font-size: 14px;}
 
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	.custom-button {padding: 18px 30px;font-size: 13px;}
+	.custom-button {padding: 10px 28px 10px;font-size: 13px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	.custom-button {padding: 18px 30px;font-size: 13px;}
+    .custom-button {padding: 10px 28px 10px;font-size: 12px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -33,7 +33,7 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}*/
-.custom-button {padding: 18px 30px;font-size: 13px;}
+.custom-button {padding: 10px 28px 10px;font-size: 12px;}
 }
 
 
