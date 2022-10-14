@@ -5,7 +5,8 @@ z-index: 4;
 width: 100%;
 margin-top: 24px;
 }
-.custom-header .col-md-12 {
+
+.custom-header .navbar.navbar-expand-lg.py-0 {
 padding: 0 66px;
 }
 .custom-header .ms-auto {
@@ -91,7 +92,7 @@ font-weight: 800;
 line-height: 100px;
 }
 .banner-button .custom-button {
-margin-top: 56px;
+margin-top: 50px;
 }
 .main-banner .carousel-indicators [data-bs-target] {
 width: 8px;
@@ -207,7 +208,7 @@ padding: 25px 0;
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
-    .custom-header .col-md-12 {padding: 0 36px;}
+    .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 36px;}
     .navbar-brand.header-logo.ms-0.py-0 img {width: 300px;}
     .custom-header .nav-item .nav-link {font-size: 16px;}
     .custom-header .nav-item .nav-link.active {font-size: 16px;}
@@ -231,7 +232,7 @@ padding: 25px 0;
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
-	.custom-header .col-md-12 {padding: 0 36px;}
+	.custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 36px;}
     .navbar-brand.header-logo.ms-0.py-0 img {width: 300px;}
     .custom-header .nav-item .nav-link {font-size: 14px;}
     .custom-header .nav-item .nav-link.active {font-size: 14px;}
@@ -258,7 +259,7 @@ padding: 25px 0;
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	.custom-header .col-md-12 {padding: 0 26px;}
+	.custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 26px;}
     .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
     .custom-header .nav-item .nav-link {font-size: 13px;}
     .custom-header .nav-item .nav-link.active {font-size: 13px;}
@@ -288,7 +289,7 @@ padding: 25px 0;
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	.custom-header .col-md-12 {padding: 0 26px;}
+	.custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 26px;}
     .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
     .custom-header .nav-item .nav-link {font-size: 13px;}
     .custom-header .nav-item .nav-link.active {font-size: 13px;}
@@ -318,7 +319,7 @@ padding: 25px 0;
 }
 
 @media only screen and (max-width: 991.98px) {    
-    .custom-header .col-md-12 {padding: 0 26px;}
+    .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 26px;}
     .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
     .custom-header .nav-item .nav-link {font-size: 13px;}
     .custom-header .nav-item .nav-link.active {font-size: 13px;}
