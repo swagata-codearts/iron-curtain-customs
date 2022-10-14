@@ -46,13 +46,17 @@
   height: 465px;
 }
 
-.our-product .cards .product-title {
+.our-product .cards h5 {
   color: var(--c-light-grey);
   font-family: var(--ff-primary);
   font-size: 28px;
   font-weight: 500;
   padding-top: 25px;
   text-transform: uppercase;
+}
+
+.our-product .cards h5:hover{
+  color: var(--c-primary-text);
 }
 
 .our-product .custom-heading h3{
