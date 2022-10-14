@@ -6,7 +6,7 @@ width: 100%;
 margin-top: 24px;
 }
 .custom-header .col-md-12 {
-padding: 0 66px 0 66px;
+padding: 0 66px;
 }
 .custom-header .ms-auto {
 margin-left: 80px !important;
@@ -21,7 +21,7 @@ width: 87%;
 padding-right: 0;
 padding-left: 0;
 }
-.custom-header .navbar-brand {
+.custom-header .header-logo {
 margin-right: 0;
 }
 .custom-header .nav-item {
@@ -202,12 +202,17 @@ padding: 25px 0;
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-	.custom-header .nav-item {margin-left: 22px;}
-    
+	
+
 }
 
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1366px) and (max-width: 1600px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1366px){
 	
+
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
