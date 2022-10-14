@@ -19,42 +19,61 @@
 .counter-section .counter-wrap{
     text-align: center;
     /* border-right: 1px solid var(--c-grey); */
+    display: inline-flex;
 }
-.counter-section .counter-wrap h2{
+.counter-section .count-title{
     font-family: var(--ff-primary) ;
     font-size:25px ;
     font-weight: 700;
-    line-height: 51px;
     color: var(--c-white);
 }
-.counter-section .counter-wrap h3{
+.counter-section .count-number-and-unit span,.counter-section .count-number-and-unit{
     font-family: var(--ff-primary);
     font-weight: 700;
     color:  var(--c-primary-text);
     font-size: 60px;
-    line-height: 51px;
 }
+.counter-section .counter-box {
+    padding: 21px 0px;
+    margin-bottom: 30px
+  }
+.counter-section .counter-col:not(:last-child) .counter-box {
+    border-right: 2px solid var(--c-grey);
+  }
+  .get-in-touch {
+    padding-bottom: 89px;
+    padding-top: 218px;
+  }
 .get-in-touch .get-in-heading h4{
     font-family: var(--ff-primary);
     font-weight: 500;
     font-size: 30px;
     line-height: 40px;
     color: var(--c-secondary-text);
-    padding-bottom: 28px;
+    padding-bottom: 30px;
 }
+/* .get-in-touch .get-in-right .get-in-heading h4{
+    padding-bottom: 22px;
+} */
 .get-in-touch .get-in-text p,.get-in-touch .get-in-text p a{
     font-family: var(--ff-secondary);
     font-weight: 400;
     font-size: 18px;
-    line-height: 37px;
+    line-height: 35px;
     color: var(--c-semi-grey);
 }
 .get-in-touch .get-in-text p a:hover{
     color:var(--c-primary-text);
 }
 .get-in-touch .get-in-text p{
+    padding-bottom: 13px;
+} 
+/* .get-in-touch .get-in-left .get-in-text p{
     padding-bottom: 10px;
-}
+} */
+/* .get-in-touch .get-in-right .get-in-text p{
+    padding-bottom: 18px;
+} */
 .get-in-touch .get-in-text{
     padding-bottom: 20px;
 }
@@ -62,13 +81,12 @@
 font-family: var(--ff-primary);
 font-weight: 500;
 font-size: 20px;
-line-height: 40px;
 color: var(--c-primary-text);
-padding-bottom: 50px;
+padding-bottom: 58px;
 }
 .get-in-touch .get-in-left .get-in-map iframe{
-    width: 540px;
-    height: 305px;
+    width: 552px;
+    height: 309px;
 }
 .get-in-touch .get-in-right .get-in-form input,.get-in-touch .get-in-right .get-in-form textarea{
     margin-bottom: 19px;
@@ -81,6 +99,7 @@ padding-bottom: 50px;
     height: 227px;
 }
 .get-in-touch .get-in-right .get-in-form .form-btn a {
-    padding: 12px 313px;
+    padding: 12px 312px;
+    line-height: 2;
 }
    
