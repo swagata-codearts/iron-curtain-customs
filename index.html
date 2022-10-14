@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/fdev-sg.css">
   <!-- Responsive CSS Stylesheet -->
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
   <!-- Fontawesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <title>Iron Curtain Customs</title>
@@ -238,7 +239,7 @@
   </section>
   <!--Our-Product-End-->
   <!--custom-gallery-Start-->
-  <section class="custom-gallery">
+  <section class="custom-gallery custom-pad">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -255,23 +256,43 @@
       <div class="row">
         <div class="col-md-4 col-12">
           <div class="gallery-img-wrap">
-            <div class="gallery-first-img">
-              <img src="images/gallery-img-1.jpg" alt="gallery-img">
+            <div class="gallery-custom-img" style="max-width: 1000px;">
+              <a href="images/gallery-img-1.jpg" data-fancybox="custom-gallery-image">
+                <img src="images/gallery-img-1.jpg" alt="gallery-img">
+              </a>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-12">
           <div class="gallery-img-wrap">
-            <div class="gallery-first-img">
-              <img src="images/gallery-img-1.jpg" alt="gallery-img">
+            <div class="gallery-custom-img">
+              <div class="gallery-custom-img-upper" style="max-width: 1000px;">
+                <a href="images/gallery-img-2.jpg" data-fancybox="custom-gallery-image">
+                  <img src="images/gallery-img-2.jpg" alt="gallery-img">
+                </a>
+              </div>
+              <div class="gallery-custom-img-lower" style="max-width: 1000px;">
+                <a href="images/gallery-img-3.jpg" data-fancybox="custom-gallery-image">
+                  <img src="images/gallery-img-3.jpg" alt="gallery-img">
+                </a>
+              </div>             
             </div>
           </div>
         </div>
         <div class="col-md-4 col-12">
-          <div class="gallery-img-wrap">
-            <div class="gallery-first-img">
-              <img src="images/gallery-img-4.jpg" alt="gallery-img">
+          <div class="gallery-custom-wrap">
+            <div class="gallery-custom-img" style="max-width: 1000px;">
+              <a href="images/gallery-img-4.jpg" data-fancybox="custom-gallery-image">
+                <img src="images/gallery-img-4.jpg" alt="gallery-img">
+              </a>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="gallery-custom-button">
+            <a class="custom-button" href="javascript:void(0)" target="_self">Learn More</a>
           </div>
         </div>
       </div>
@@ -467,6 +488,7 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
