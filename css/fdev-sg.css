@@ -89,8 +89,8 @@ border-radius: 50px;
 background-color:var(--c-primary-text);
 }
 .banner .carousel-indicators [data-bs-target].active {
-    background-color: var(--c-primary-text);
-  }
+background-color: var(--c-primary-text);
+}
 /*banner-end*/
 
 /*footer-start*/
@@ -121,8 +121,9 @@ font-weight: 600;
 text-transform: uppercase;
 }
 .footer-wrap .footer-list li {
-padding: 10px 0;
+padding: 10px 0px;
 position: relative;
+padding-left: 25px;
 }
 .footer-wrap .footer-list {
 margin-top: 50px;
@@ -137,25 +138,26 @@ font-weight: 400;
 color: var(--c-primary-text);
 }
 .footer-wrap .footer-break-list li {
-    padding: 10px 0;
+padding: 10px 0;
 }
 .footer-wrap .footer-break-list {
-    margin-top: 50px;
-    column-count: 2;
+margin-top: 50px;
+column-count: 2;
 }
 .footer-wrap .footer-break-list li a {
-    font-family: var(--ff-secondary);
-    color: var(--c-light-grey);
-    font-size: 14px;
-    font-weight: 400;
+font-family: var(--ff-secondary);
+color: var(--c-light-grey);
+font-size: 14px;
+font-weight: 400;
 }
 .footer-wrap .footer-break-list li a:hover {
-    color: var(--c-primary-text);
+color: var(--c-primary-text);
 }
 .footer-3-content .footer-icon {
 color: var(--c-primary-text);
-font-size: 14px;
+font-size: 15px;
 position: absolute;
+left: 0;
 }
 .footer-2-content {
 margin-left: 120px;
