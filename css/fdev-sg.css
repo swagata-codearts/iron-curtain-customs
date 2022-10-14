@@ -67,7 +67,6 @@ line-height: 38px;
 background-color: var(--c-primary-text);
 color: var(--c-white);
 }
-
 /*header-end*/ 
 /*banner-start*/
 .main-banner {
@@ -110,7 +109,6 @@ background-color:var(--c-primary-text);
 background-color: var(--c-primary-text);
 }
 /*banner-end*/
-
 /*footer-start*/
 .footer-wrap {
 background-image: url(../images/footer-bg.jpg);
