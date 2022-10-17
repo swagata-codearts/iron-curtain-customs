@@ -197,6 +197,9 @@ font-weight: 400;
 padding: 25px 0;
 }
 /*footer-end*/
+/*About-ICC-inner-start*/
+
+/*About-ICC-inner-end*/
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
 .custom-header .nav-item {margin-left: 51px;}
