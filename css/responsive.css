@@ -51,6 +51,7 @@
 @media (max-width: 767.98px){
 .custom-heading h3 {font-size: 28px;line-height: 38px;margin-top: 10px;}
 .custom-heading h5 {font-size: 16px;}
+.custom-pad {padding: 50px 0;}
 }
 
 @media (max-width: 575.98px){
