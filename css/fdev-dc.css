@@ -155,7 +155,8 @@
   .about-us {padding: 100px 0 100px 0;}
   .upper-img img {height: 500px;}
   .lower-img img {height: 350px;}
-  .lower-img{left: -30px;}
+  .lower-img{left: 60px;}
+  .about-image-wrap {text-align: center;}
    /*about-us-end-*/
     
 }
@@ -163,10 +164,10 @@
 @media (min-width:992px) and (max-width:1200px){
   /*about-us-start-*/
   .about-us {padding: 90px 0 90px 0;}
-  .about-image-wrap {padding-left: 60px;}
+  .about-image-wrap {text-align: center;}
   .upper-img img {height: 400px;}
   .lower-img img {height: 300px;}
-  .lower-img{left: 0;bottom: -230px;}
+  .lower-img{left: 20px;bottom: -130px;}
   /*about-us-end-*/
   /*our-product-start*/
   .our-product .owl-carousel .owl-item img{height: 400px;}
@@ -212,7 +213,7 @@
   .lower-img {left: 60px;}
    /*about-us-end-*/
   /*custom-gallery-start*/
-   .gallery-custom-img {width: 80%;padding-bottom: 20px;}
+  .gallery-custom-img {padding-bottom: 20px;width: 80%;}
   /*custom-gallery-end*/
 }
 
