@@ -350,7 +350,8 @@ padding: 25px 0;
 .copyright p {font-size: 13px;padding: 15px 0;}
 .copyright {margin-top: 67px;}
 .header-icon a {height: 35px;width: 35px;line-height: 35px;}
-.custom-header .ms-auto {margin-left: 25px !important;}
+.custom-header .ms-auto {margin-left: 0px !important;}
+.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {width: 100%;}
 .main-banner .carousel-indicators {margin-bottom: 25px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end !important;}
 .footer-wrap .footer-break-list li {padding: 8px 0;}
