@@ -155,6 +155,7 @@
     .counter-section .count-title {font-size: 23px;}
     .get-in-touch {padding-bottom: 30px;padding-top: 120px;}
     .get-in-touch .custom-heading {margin-bottom: 10px;}
+    .get-in-touch .get-in-left, .get-in-touch .get-in-right {padding-left: 0px;}
     .get-in-touch .get-in-heading h4 {font-size: 24px;line-height: 27px;padding-bottom: 13px;}
     .get-in-touch .get-in-left .get-in-map iframe {width: 100%;height: 220px;}
     .get-in-touch .get-in-right {padding-top: 35px;}
@@ -169,6 +170,7 @@
     .counter-section .count-title {font-size: 17px;}
     .counter-section .counter-box {padding: 10px 0px;margin-bottom: 15px;}
     .get-in-touch .get-in-left .get-in-map iframe {height: 170px;}
+
     .get-in-touch .get-in-heading h4 {font-size: 21px;line-height: 22px;padding-bottom: 10px;}
     .get-in-touch .custom-heading {margin-bottom: 0px;}
     .get-in-touch .get-in-left,.get-in-touch .get-in-right {text-align: center;}
