@@ -88,26 +88,13 @@
 .get-in-touch .get-in-right .get-in-form textarea{
     height: 227px;
 }
-.get-in-touch .get-in-right .get-in-form .form-btn input{
-    background-color: var(--c-primary-text);
-    color: var(--c-white);
-    padding: 13px 50px 15px;
-    font-family: var(--ff-primary);
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 3px;
-    transition: all 0.3s ease-in-out;
+.get-in-touch .get-in-right .get-in-form .form-btn input {
     width: 100%;
+    border: 1px solid transparent;
 }
-.get-in-touch .get-in-right .get-in-form .form-btn input:hover{
-    color: var(--c-primary-text);
-    background-color: var(--c-white);
+ .get-in-touch .get-in-right .get-in-form .form-btn input:hover{
     border: 2px solid var(--c-primary-text);
-}
+} 
 
 @media (min-width: 1920px) and (max-width: 2500px){
 	
@@ -134,8 +121,11 @@
     .get-in-touch .get-in-heading h4 {font-size: 26px;line-height: 34px;padding-bottom: 26px;}
     .get-in-touch .get-in-text p, .get-in-touch .get-in-text p a {font-size: 16px;line-height: 28px;padding-bottom: 8px;}
     .get-in-touch .get-in-left .get-in-map iframe {width: 353px;height: 305px;}
-    .get-in-touch .get-in-right .get-in-form input, .get-in-touch .get-in-right .get-in-form textarea { padding: 12px 16px;margin-bottom: 11px;}
+    .get-in-touch .get-in-right .get-in-form .form-wrap input, .get-in-touch .get-in-right .get-in-form .form-wrap textarea {padding: 12px 22px;margin-bottom: 13px;}
     .get-in-touch .get-in-map-heading h5 {font-size: 18px;padding-bottom: 45px;}
+    .get-in-touch .get-in-right .get-in-form .form-wrap textarea{
+        height: 150px;
+    }
 }
 
 @media (max-width: 767.98px){
