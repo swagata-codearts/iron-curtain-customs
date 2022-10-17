@@ -198,8 +198,12 @@
   .our-product .owl-dots{padding-top: 15px;}
   .our-product .custom-heading h3{padding-bottom: 50px;}
   .our-product{padding: 60px 0 60px 0;}
-
   /*our-product-end-*/
+
+  /*custom-gallery-start*/
+  .custom-gallery .custom-heading h3 {padding-bottom: 50px;}
+  .gallery-custom-button {padding-top: 50px;}
+  /*custom-gallery-end*/
     
 }
 
@@ -207,6 +211,9 @@
   /*about-us-start-*/
   .lower-img {left: 60px;}
    /*about-us-end-*/
+  /*custom-gallery-start*/
+   .gallery-custom-img {width: 80%;padding-bottom: 20px;}
+  /*custom-gallery-end*/
 }
 
 @media only screen and (max-width:575.98px){
