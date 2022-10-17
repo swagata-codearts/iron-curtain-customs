@@ -198,13 +198,23 @@ padding: 25px 0;
 }
 /*footer-end*/
 /*Responsive-start*/
-@media (min-width: 1920px) and (max-width: 2500px){
-
+@media (min-width: 1850px) and (max-width: 2500px){
+    .custom-header .nav-item {margin-left: 51px;}
+    .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
+}
+@media (min-width: 1800px) and (max-width: 1850px){
+    .custom-header .nav-item {margin-left: 41px;}
+    .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
 }
 
-@media (min-width: 1600px) and (max-width: 1920px){
-/*.custom-header .nav-item {margin-left: 22px;}*/
+@media (min-width: 1700px) and (max-width: 1800px){
+    .custom-header .nav-item {margin-left: 31px;}
+    .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
+}
 
+@media (min-width: 1600px) and (max-width: 1700px){
+.custom-header .nav-item {margin-left: 21px;}
+.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
@@ -323,12 +333,12 @@ padding: 25px 0;
 .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
 .custom-header .nav-item .nav-link {font-size: 13px;}
 .custom-header .nav-item .nav-link.active {font-size: 13px;}
-.custom-header .nav-item {margin-left: 12px;}
+.custom-header .nav-item {margin-left: 0px;}
 .custom-header .navbar-brand.header-logo.ms-0.py-0 {padding-bottom: .3125rem !important;}
 .main-banner h1 {font-size: 35px;line-height: 42px;}
-.main-banner .carousel-caption.d-none.d-md-block {padding: 0 240px;}
-.banner-button .custom-button {margin-top: 35px;}
-.main-banner .carousel-caption.d-none.d-md-block {top: 36%;}
+.main-banner .carousel-caption.d-none.d-md-block {padding: 0 190px;}
+.banner-button .custom-button {margin-top: 25px;}
+.main-banner .carousel-caption.d-none.d-md-block {top: 40%;}
 .main-banner .carousel-indicators {margin-bottom: 32px;}
 .footer-1-content p {font-size: 13px;margin-top: 50px;line-height: 25px;}
 .footer-wrap .footer-break-list li a {font-size: 12px;}
@@ -374,7 +384,7 @@ padding: 25px 0;
 .footer-1-content .footer-img {margin-top: 30px;}
 .footer-2 {padding: 30px 0px;}
 .footer-2-content {margin-left: 0px;}
-.footer-wrap {padding: 60px 0 0;}
+.footer-wrap {padding: 40px 0 0;}
 .copyright {margin-top: 40px;}
 .footer-wrap .footer-break-list li a {font-size: 13px;}
 .footer-wrap .footer-list li a {font-size: 13px;}
