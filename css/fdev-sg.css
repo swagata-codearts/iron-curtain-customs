@@ -332,6 +332,53 @@ transform: scale(1);
 background-color: #f9f9f9;
 }
 /*About-ICC-inner-end*/
+/*Galil-47-inner-start*/
+.details-img {
+    object-fit: cover;
+}
+.details-img img {
+    width: 100%;
+}
+.details-content {
+    margin-top: 30px;
+}
+.galil-believing .custom-paragraph {
+    padding: 0 0 30px 0;
+    color: var(--c-light-grey);
+  }
+  .details-img .custom-paragraph {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .galil-details.custom-pad .custom-heading h5 {
+    line-height: 0;
+}
+.galil-believing.custom-pad .custom-button:hover {
+    border: 2px solid var(--c-white);
+}
+.galil-believing.custom-pad {
+    background-image: url(../images/product-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.galil-47-gallery {
+    object-fit: cover;
+    overflow: hidden;
+    padding: 25px 0 0px 0;
+    height: 600px;
+  }
+  .galil-47-gallery img {
+    width: 100%;
+  }
+  .galil-gallery.custom-pad {
+    background-color: #f9f9f9;
+  }
+/*Galil-47-inner-end*/
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
 .custom-header .nav-item {margin-left: 51px;}
