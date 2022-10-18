@@ -20,7 +20,7 @@
 .custom-inner-banner .inner-banner-content h1 {font-size: 50px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 18px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
-.custom.paragraph {font-size: 14px;line-height: 30px;}
+.custom-paragraph {font-size: 14px;line-height: 30px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -33,7 +33,7 @@
 .custom-inner-banner .inner-banner-content h1 {font-size: 50px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 18px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
-.custom.paragraph {font-size: 13px;line-height: 23px;}
+.custom-paragraph {font-size: 13px;line-height: 23px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -46,7 +46,7 @@
 .custom-inner-banner .inner-banner-content h1 {font-size: 50px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 18px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
-.custom.paragraph {font-size: 13px;line-height: 23px;}
+.custom-paragraph {font-size: 13px;line-height: 23px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -68,7 +68,7 @@
 .custom-inner-banner .inner-banner-content h1 {font-size: 40px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 16px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 16px;}
-.custom.paragraph {font-size: 14px;line-height: 25px;}
+.custom-paragraph {font-size: 14px;line-height: 25px;}
 .inner-banner-text .breadcrumb-item.active {width: 53%;}
 .inner-banner-text .breadcrumb-item {width: 47%;}
 }
@@ -102,11 +102,11 @@
 .banner-button .custom-button {padding: 6px 28px 6px;}
 .custom-inner-banner .inner-banner-content {margin-top: 21%;}
 .custom-inner-banner {height: 15vh;}
-.custom-inner-banner .inner-banner-content h1 {font-size: 28px;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 24px;}
 .inner-banner-text .breadcrumb-item.active {width: 57%;}
 .inner-banner-text .breadcrumb-item {width: 43%;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 12px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 12px;}
-.custom.paragraph {font-size: 13px;line-height: 20px;}
+.custom-paragraph {font-size: 13px;line-height: 20px;}
 }
 
