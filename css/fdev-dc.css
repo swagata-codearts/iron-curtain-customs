@@ -42,18 +42,21 @@
   background-position: center;
 }
 
-.our-product .owl-carousel .owl-item img{
-  padding: 0 12px;
+.our-product .owl-carousel .owl-item .img-wrap img{
   height: 465px;
   transition: 0.5s;
 }
 
- .item:hover img{
-  transform: scale(0.97);
+ .item .img-wrap:hover img{
+  transform: scale(1.05);
 }
 
-.item{
+.img-wrap{
   overflow: hidden;
+}
+
+.our-product .cards {
+  padding: 0 10px;
 }
 
 .our-product .cards h5 {
@@ -194,7 +197,7 @@
   /*about-us-end-*/
 
   /*our-product-start-*/
-  .our-product .owl-carousel .owl-item img {padding: 0;height: 350px;}
+  .our-product .owl-carousel .owl-item .img-wrap img {height: 300px;}
   .our-product .cards h5{font-size: 18px;}
   .our-product .owl-dots{padding-top: 15px;}
   .our-product .custom-heading h3{padding-bottom: 50px;}
