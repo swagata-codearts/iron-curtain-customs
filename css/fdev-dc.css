@@ -145,6 +145,9 @@
   padding-top: 10px;
 }
 
+.light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child img{
+  height: 341px;
+}
 /*------------custom-gallery-end----------------*/
 
 /*-----------iron-gallery-start-----------------*/
