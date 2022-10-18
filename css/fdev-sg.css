@@ -254,7 +254,7 @@ right: 0;
 margin: 0 auto;
 z-index: 1;
 }
-.category-content .custom.paragraph {
+.category-content .custom-paragraph {
 color: var(--c-grey-100);
 text-align: center;
 font-size: 22px;
@@ -277,7 +277,7 @@ transition: all 0.3s ease-in-out;
 display: block;
 cursor: pointer;
 }
-.categories-1:hover .category-content .custom.paragraph {
+.categories-1:hover .category-content .custom-paragraph {
 display: block;
 transform: scale(1);
 }
@@ -299,7 +299,7 @@ transition: all 0.3s ease-in-out;
 display: block;
 cursor: pointer;
 }
-.categories-2:hover .category-content .custom.paragraph {
+.categories-2:hover .category-content .custom-paragraph {
 display: block;
 transform: scale(1);
 }
@@ -321,7 +321,7 @@ transition: all 0.3s ease-in-out;
 display: block;
 cursor: pointer;
 }
-.categories-3:hover .category-content .custom.paragraph {
+.categories-3:hover .category-content .custom-paragraph {
 display: block;
 transform: scale(1);
 }
@@ -452,7 +452,7 @@ background-color: #f9f9f9;
 .categories-1 {height: 360px;}
 .categories-2 {height: 360px;}
 .categories-3 {height: 550px;}
-.category-content .custom.paragraph {font-size: 18px;}
+.category-content .custom-paragraph {font-size: 18px;}
 /*About-ICC-inner-end*/
 }
 
@@ -489,7 +489,7 @@ background-color: #f9f9f9;
 .categories-1 {height: 320px;}
 .categories-2 {height: 320px;}
 .categories-3 {height: 500px;}
-.category-content .custom.paragraph {font-size: 18px;}
+.category-content .custom-paragraph {font-size: 18px;}
 /*About-ICC-inner-end*/
 }
 
@@ -580,7 +580,7 @@ background-color: #f9f9f9;
 .categories-1 {height: 350px;}
 .categories-2 {height: 350px;}
 .categories-3 {height: 350px;}
-.category-content .custom.paragraph {font-size: 16px; line-height: 25px;}
+.category-content .custom-paragraph {font-size: 16px; line-height: 25px;}
 .about-hero-button .custom-button {width: 100%;}
 /*About-ICC-inner-end*/
 }
@@ -599,7 +599,7 @@ background-color: #f9f9f9;
 .footer-logo img {width: 70%;}
 .footer-wrap .footer-list {margin-left: 40px;}
 /*About-ICC-inner-start*/
-.hero-img-content .custom.paragraph {text-align: center;}
+.hero-img-content .custom-paragraph {text-align: center;}
 .categories-1 {height: 300px;}
 .categories-2 {height: 300px;}
 .categories-3 {height: 300px;}
@@ -615,7 +615,7 @@ background-color: #f9f9f9;
 .custom-header {margin-top: 5px;}
 .footer-wrap .footer-list {margin-left: 20px;}
 /*About-ICC-inner-start*/
-.category-content .custom.paragraph {font-size: 12px;}
+.category-content .custom-paragraph {font-size: 12px;}
 .categories-1 {height: 200px;}
 .categories-2 {height: 200px;}
 .categories-3 {height: 200px;}

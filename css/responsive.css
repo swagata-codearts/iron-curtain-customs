@@ -68,7 +68,7 @@
 .custom-inner-banner .inner-banner-content h1 {font-size: 40px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 16px;}
 .custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 16px;}
-.custom.paragraph {font-size: 14px;line-height: 25px;}
+.custom-paragraph {font-size: 14px;line-height: 25px;}
 .inner-banner-text .breadcrumb-item.active {width: 53%;}
 .inner-banner-text .breadcrumb-item {width: 47%;}
 }
