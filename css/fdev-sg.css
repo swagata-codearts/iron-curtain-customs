@@ -548,6 +548,10 @@ background-color: #f9f9f9;
 .hero-img-content {padding-left: 0px;margin-top: 30px;}
 .about-hero-button {text-align: center;}
 .categories-2 {margin-top: 26px;}
+.inner-banner-text {margin-top: 10px;}
+.categories-1 {height: 450px;}
+.categories-2 {height: 450px;}
+.categories-3 {height: 450px;}
 /*About-ICC-inner-end*/
 }
 
@@ -572,6 +576,13 @@ background-color: #f9f9f9;
 .footer-3 {text-align: center;}
 .footer-2 {text-align: center;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 35.5%;}
+/*About-ICC-inner-start*/
+.categories-1 {height: 350px;}
+.categories-2 {height: 350px;}
+.categories-3 {height: 350px;}
+.category-content .custom.paragraph {font-size: 16px; line-height: 25px;}
+.about-hero-button .custom-button {width: 100%;}
+/*About-ICC-inner-end*/
 }
 
 @media (max-width: 575.98px){
@@ -587,6 +598,12 @@ background-color: #f9f9f9;
 .custom-header .navbar-toggler {height: 35px;border-radius: 3px;}
 .footer-logo img {width: 70%;}
 .footer-wrap .footer-list {margin-left: 40px;}
+/*About-ICC-inner-start*/
+.hero-img-content .custom.paragraph {text-align: center;}
+.categories-1 {height: 300px;}
+.categories-2 {height: 300px;}
+.categories-3 {height: 300px;}
+/*About-ICC-inner-end*/
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -597,5 +614,13 @@ background-color: #f9f9f9;
 .main-banner .carousel-caption.d-none.d-md-block {top: 44%;}
 .custom-header {margin-top: 5px;}
 .footer-wrap .footer-list {margin-left: 20px;}
+/*About-ICC-inner-start*/
+.category-content .custom.paragraph {font-size: 12px;}
+.categories-1 {height: 200px;}
+.categories-2 {height: 200px;}
+.categories-3 {height: 200px;}
+.category-content {top: 43%;}
+.hero-img-content {margin-top: 20px;}
+/*About-ICC-inner-end*/
 }
 /*Responsive-end*/
