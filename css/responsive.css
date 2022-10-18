@@ -8,13 +8,19 @@
 
 @media (min-width: 1366px) and (max-width: 1600px){
 .custom-button {padding: 13px 50px 15px;;font-size: 14px;}
+.custom-inner-banner .inner-banner-content {margin-top: 13.5%;}
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
 .custom-button {padding: 10px 28px 10px;font-size: 14px;}
 .custom-heading h3 {font-size: 34px;line-height: 41px;margin-top: 27px;}
 .custom-heading h5 {font-size: 18px;}
-
+.custom-inner-banner .inner-banner-content {margin-top: 11%;}
+.custom-inner-banner {height: 28vh;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 50px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 18px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
+.custom.paragraph {font-size: 14px;line-height: 30px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -22,6 +28,12 @@
 .custom-heading h3 {font-size: 34px;line-height: 41px;margin-top: 27px;}
 .custom-heading h5 {font-size: 18px;}
 .custom-pad {padding: 70px 0;}
+.custom-inner-banner .inner-banner-content {margin-top: 12.5%;}
+.custom-inner-banner {height: 28vh;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 50px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 18px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
+.custom.paragraph {font-size: 13px;line-height: 23px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -29,6 +41,12 @@
 .custom-heading h3 {font-size: 30px;line-height: 41px;margin-top: 17px;}
 .custom-heading h5 {font-size: 18px;}
 .custom-pad {padding: 60px 0;}
+.custom-inner-banner .inner-banner-content {margin-top: 12.5%;}
+.custom-inner-banner {height: 28vh;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 50px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 18px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
+.custom.paragraph {font-size: 13px;line-height: 23px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -45,6 +63,12 @@
 .custom-heading h3 {font-size: 30px;line-height: 41px;margin-top: 17px;}
 .custom-heading h5 {font-size: 18px;}
 .custom-pad {padding: 50px 0;}
+.custom-inner-banner .inner-banner-content {margin-top: 12.5%;}
+.custom-inner-banner {height: 28vh;}
+.custom-inner-banner .inner-banner-content h1 {font-size: 50px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item a {font-size: 18px;}
+.custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
+.custom.paragraph {font-size: 14px;line-height: 25px;}
 }
 
 
