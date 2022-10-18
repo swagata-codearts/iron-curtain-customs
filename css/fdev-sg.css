@@ -109,6 +109,8 @@ background-color:var(--c-primary-text);
 .main-banner .carousel-indicators [data-bs-target].active {
 background-color: var(--c-primary-text);
 }
+.banner-button .custom-button:hover {border: 2px solid var(--c-white);}
+.header-button .custom-button:hover {border: 2px solid var(--c-white);}
 /*banner-end*/
 /*footer-start*/
 .footer-wrap {
@@ -358,7 +360,7 @@ padding: 25px 0;
 .main-banner .carousel-indicators {margin-bottom: 25px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end !important;}
 .footer-wrap .footer-break-list li {padding: 5px 0;}
-.footer-wrap .footer-list li {padding: 5px 0px;padding-left: 20px;}
+.footer-wrap .footer-list li {padding: 5px 0px;padding-left: 20px; text-align: left;}
 .footer-logo img {width: 50%;}
 .header-button {display: none;}
 .custom-header .navbar-header {display: block;}
@@ -402,8 +404,9 @@ padding: 25px 0;
 .banner-button .custom-button {margin-top: 25px;}
 .custom-header .header-icon {top: 1px;}
 .footer-wrap .footer-break-list {column-count: unset;}
-.footer-3-content {margin-left: 28%;padding-right: 80px;}
-.footer-2-content {margin-left: 28%;}
+.footer-3 {text-align: center;}
+.footer-2 {text-align: center;}
+.main-banner .carousel-caption.d-none.d-md-block {top: 35.5%;}
 }
 
 @media (max-width: 575.98px){
@@ -418,8 +421,7 @@ padding: 25px 0;
 .navbar-brand.header-logo.ms-0.py-0 img {width: 150px;}
 .custom-header .navbar-toggler {height: 35px;border-radius: 3px;}
 .footer-logo img {width: 70%;}
-.footer-2-content {margin-left: 25%;}
-.footer-3-content {margin-left: 25%;padding-right: 80px;}
+.footer-wrap .footer-list {margin-left: 40px;}
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -428,8 +430,7 @@ padding: 25px 0;
 .banner-button .custom-button {margin-top: 15px;}
 .main-banner .carousel-caption.d-none.d-md-block {padding: 0 15px;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 44%;}
-.footer-3-content {margin-left: 20%;padding-right: 40px;}
-.footer-2-content {margin-left: 20%;}
 .custom-header {margin-top: 5px;}
+.footer-wrap .footer-list {margin-left: 20px;}
 }
 /*Responsive-end*/
