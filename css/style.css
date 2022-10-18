@@ -249,15 +249,15 @@ color: var(--c-primary-text);
 width: 52%;
 }
 .inner-banner-text .breadcrumb-item + .breadcrumb-item::before {
-    color: var(--c-white);
+color: var(--c-white);
 }
 /*Inner-banner-end*/
 /*Inner-banner-paragraph-start*/
 .custom.paragraph {
-    font-family: var(--ff-secondary);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--c-semi-grey);
-    line-height: 37px;
-  }
+font-family: var(--ff-secondary);
+font-size: 16px;
+font-weight: 400;
+color: var(--c-semi-grey);
+line-height: 37px;
+}
 /*Inner-banner-paragraph-end*/

@@ -255,7 +255,7 @@ margin: 0 auto;
 z-index: 1;
 }
 .category-content .custom.paragraph {
-color: var(--c-white);
+color: var(--c-grey-100);
 text-align: center;
 font-size: 22px;
 display: none;
