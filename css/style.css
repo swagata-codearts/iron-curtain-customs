@@ -149,7 +149,7 @@ text-transform: uppercase;
 display: inline-block;
 text-decoration: none;
 border-radius: 3px;
-border:2px solid transparent;
+border:2px solid var(--c-primary-text);
 transition: all 0.3s ease-in-out;
 }
 .custom-button:hover {
