@@ -149,12 +149,7 @@
 
 /*-----------iron-gallery-start-----------------*/
 .iron-gallery {
-  background-color: #000;
-  text-align: center;
-}
-
-.iron-gallery .custom-heading h3{
-  color: var(--c-grey-100);
+  background-color: var(--c-white);
 }
 
 .iron-gallery-img img {
