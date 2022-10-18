@@ -157,6 +157,9 @@
   color: var(--c-grey-100);
 }
 
+.iron-gallery-wrap img {
+  width: 100%;
+}
 /*-----------iron-gallery-end-----------------*/
 
 
