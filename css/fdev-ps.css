@@ -260,10 +260,15 @@ padding-bottom: 40px;
 .get-in-touch .get-in-text p, .get-in-touch .get-in-text p a {font-size: 15px;padding-bottom: 3px;}
 .get-in-touch .get-in-map-heading h5 {font-size: 17px;padding-bottom: 24px;}  
 /* Contact us Start */
-.contact-us .contact-us-left-part p {font-size: 18px;padding-bottom: 15px;}
+.contact-us .contact-us-left-part p {font-size: 17px;padding-bottom: 15px;}
 .contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 4px;font-size: 16px;padding-left: 6px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {margin-bottom: 5px;padding: 10px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {margin-bottom: 5px;padding: 10px;border: 1px solid var(--c-grey-100);}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 30px;line-height: 28px;padding-bottom: 15px;}
+.contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 16px;line-height: 19px;padding-bottom: 13px;}
+.contact-us .contact-us-right-part .contact-us-text {padding-bottom: 15px;}
+.contact-us .contact-us-right-part .contact-us-map iframe {height: 240px;}
+.contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 15px;}
+.contact-us .contact-us-right-part {padding-top: 10px;}
 /* Contact us End */  
 }
 
@@ -283,6 +288,16 @@ padding-bottom: 40px;
 .get-in-touch .get-in-text { padding-bottom: 8px;}
 .get-in-touch .get-in-map-heading h5 {padding-bottom: 15px;}
 .get-in-touch .get-in-right {padding-top: 22px;}    
+/* Contact us start */
+.contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 6px;}
+.contact-us .contact-us-left-part p {font-size: 13px;padding-bottom: 8px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 0px;font-size: 13px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {padding: 7px;}
+.contact-us .contact-us-right-part .custom-heading h3 {font-size: 24px;line-height: 24px;padding-bottom: 6px;}
+.contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 13px;line-height: 15px;padding-bottom: 10px;}
+.contact-us .contact-us-right-part .contact-us-text {padding-bottom: 8px;}
+.contact-us .contact-us-right-part .contact-us-map iframe {height: 160px;}
+/* Contact us End */
 }
 
 @media only screen and (max-width: 480.98px) {	
