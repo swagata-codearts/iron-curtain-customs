@@ -90,7 +90,6 @@ height: 227px;
 }
 .get-in-touch .get-in-right .get-in-form .form-btn input {
 width: 100%;
-border: none;
 }
 .get-in-touch .get-in-right .get-in-form .form-btn input:hover{
 border: 2px solid var(--c-primary-text);
