@@ -231,6 +231,17 @@ padding-bottom: 40px;
 .get-in-touch .get-in-right .get-in-form .form-wrap input, .get-in-touch .get-in-right .get-in-form .form-wrap textarea {padding: 12px 17px;margin-bottom: 10px;}
 .get-in-touch .get-in-map-heading h5 {font-size: 18px;padding-bottom: 30px;}
 .get-in-touch .get-in-right .get-in-form .form-wrap textarea{height: 150px;}
+/* Contact us Start */
+.contact-us .custom-heading,.contact-us .contact-us-text {text-align: center;padding-bottom: 0px;}
+.contact-us .contact-us-left-part p {font-size: 20px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 6px;font-size: 18px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {font-size: 12px;margin-bottom: 8px;}
+.contact-us .contact-us-right-part .custom-heading h3 {font-size: 38px;line-height: 37px;padding-bottom: 25px;}
+.contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 18px;line-height: 22px;padding-bottom: 20px;}
+.contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 23px;}
+    .contact-us .contact-us-right-part .contact-us-text {padding-bottom: 25px;}
+/* Contact us End */
+
 }
 
 @media (max-width: 767.98px){
@@ -247,7 +258,13 @@ padding-bottom: 40px;
 .get-in-touch .get-in-text {padding-bottom: 15px;}
 .get-in-touch .get-in-right .get-in-form .form-wrap textarea {height: 190px;}
 .get-in-touch .get-in-text p, .get-in-touch .get-in-text p a {font-size: 15px;padding-bottom: 3px;}
-.get-in-touch .get-in-map-heading h5 {font-size: 17px;padding-bottom: 24px;}    
+.get-in-touch .get-in-map-heading h5 {font-size: 17px;padding-bottom: 24px;}  
+/* Contact us Start */
+.contact-us .contact-us-left-part p {font-size: 18px;padding-bottom: 15px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 4px;font-size: 16px;padding-left: 6px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {margin-bottom: 5px;padding: 10px;}
+.contact-us .contact-us-right-part .custom-heading h3 {font-size: 30px;line-height: 28px;padding-bottom: 15px;}
+/* Contact us End */  
 }
 
 @media (max-width: 575.98px){
