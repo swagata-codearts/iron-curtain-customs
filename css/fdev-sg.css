@@ -402,6 +402,8 @@ padding: 25px 0;
 .banner-button .custom-button {margin-top: 25px;}
 .custom-header .header-icon {top: 1px;}
 .footer-wrap .footer-break-list {column-count: unset;}
+.footer-3-content {margin-left: 28%;padding-right: 80px;}
+.footer-2-content {margin-left: 28%;}
 }
 
 @media (max-width: 575.98px){
