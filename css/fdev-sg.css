@@ -330,6 +330,7 @@ transform: scale(1);
 }
 .about-us-categories.custom-pad {
 background-color: #f9f9f9;
+padding-top: 200px;
 }
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
@@ -559,6 +560,7 @@ background-color: #f9f9f9;
 .categories-2 {height: 320px;}
 .categories-3 {height: 500px;}
 .category-content .custom-paragraph {font-size: 18px;}
+.about-us-categories.custom-pad {padding-top: 160px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 350px;}
@@ -627,6 +629,7 @@ background-color: #f9f9f9;
 .categories-1 {height: 450px;}
 .categories-2 {height: 450px;}
 .categories-3 {height: 450px;}
+.about-us-categories.custom-pad {padding-top: 120px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 500px;}
@@ -665,6 +668,7 @@ background-color: #f9f9f9;
 .categories-3 {height: 350px;}
 .category-content .custom-paragraph {font-size: 16px; line-height: 25px;}
 .about-hero-button .custom-button {width: 100%;}
+.about-us-categories.custom-pad {padding-top: 100px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 
@@ -689,6 +693,7 @@ background-color: #f9f9f9;
 .categories-1 {height: 300px;}
 .categories-2 {height: 300px;}
 .categories-3 {height: 300px;}
+.about-us-categories.custom-pad {padding-top: 80px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 
@@ -710,6 +715,7 @@ background-color: #f9f9f9;
 .categories-3 {height: 200px;}
 .category-content {top: 43%;}
 .hero-img-content {margin-top: 20px;}
+.about-us-categories.custom-pad {padding-top: 60px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 

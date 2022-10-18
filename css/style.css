@@ -195,7 +195,7 @@ background-repeat: no-repeat;
 text-align: center;
 position: relative;
 z-index: 3;
-height: 40vh;
+padding: 200px 0 110px 0;
 }
 .custom-inner-banner::after {
 position: absolute;
@@ -209,7 +209,6 @@ z-index: -1;
 }
 .inner-banner-content {
 text-align: center;
-margin-top: 11.5%;
 }
 .inner-banner-content h1 {
 font-family: var(--ff-primary);
