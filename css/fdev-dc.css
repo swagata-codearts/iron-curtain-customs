@@ -133,6 +133,16 @@
   padding-bottom: 80px;
 }
 
+.light-box-gal .row .col-12:nth-child(2) .gallery-custom-img a:first-child{
+  padding-bottom: 10px;
+  display: block;
+}
+
+.light-box-gal .row .col-12:nth-child(2) .gallery-custom-img a:last-child{
+  padding-top: 10px;
+  display: block;
+}
+
 /*------------custom-gallery-end----------------*/
 
 
