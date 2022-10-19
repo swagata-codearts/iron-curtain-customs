@@ -13,11 +13,11 @@ A responsive website build for Iron Curtain Customs located in Houston, Texas.
 
 ## Page Links
 
--[HOME](https://swagata-codearts.github.io/iron-curtain-customs/)
--[SERVICES](https://swagata-codearts.github.io/services.html/)
--[GALIL 47](https://swagata-codearts.github.io/iron-curtain-customs/galil-47.html)
--[PRODUCTS](https://swagata-codearts.github.io/iron-curtain-customs/products.html)
--[CUSTOM GALLERY](https://swagata-codearts.github.io/iron-curtain-customs/custom-gallery.html)
--[ABOUT ICC](https://swagata-codearts.github.io/iron-curtain-customs/about-icc.html)
--[DETAILS](https://swagata-codearts.github.io/iron-curtain-customs/details.html)
--[CONTACT](https://swagata-codearts.github.io/iron-curtain-customs/contact-icc.html)
+- [HOME](https://swagata-codearts.github.io/iron-curtain-customs/)
+- [SERVICES](https://swagata-codearts.github.io/services.html/)
+- [GALIL 47](https://swagata-codearts.github.io/iron-curtain-customs/galil-47.html)
+- [PRODUCTS](https://swagata-codearts.github.io/iron-curtain-customs/products.html)
+- [CUSTOM GALLERY](https://swagata-codearts.github.io/iron-curtain-customs/custom-gallery.html)
+- [ABOUT ICC](https://swagata-codearts.github.io/iron-curtain-customs/about-icc.html)
+- [DETAILS](https://swagata-codearts.github.io/iron-curtain-customs/details.html)
+- [CONTACT](https://swagata-codearts.github.io/iron-curtain-customs/contact-icc.html)
