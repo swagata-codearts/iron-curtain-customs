@@ -235,7 +235,7 @@
   .our-product .owl-carousel .owl-item .img-wrap img {height: 400px;object-fit: cover;}
   .our-product .owl-dots{padding-top: 20px;}
   .our-product .owl-nav{display: none;}
-
+  .our-product .product-owl-wrap {padding: 0 3%;}
   /*------our-product-end------*/
   /*--------custom-gallery-start---------*/
   .light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child img {height: 305px;object-fit: cover;}
