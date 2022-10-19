@@ -206,6 +206,9 @@
 .details .terms-condition-wrap {
   text-align: center;
 }
+.details .custom-heading h3{
+  padding-bottom: 20px;
+}
 /*----------details-end------------------*/
 
 
@@ -314,7 +317,10 @@
   /*iron-gallery-start*/
   .iron-gallery-img img {padding: 10px;}
   /*iron-gallery-end*/
-    
+ /*---------details-start---------*/
+  .details .custom-heading h3{padding-bottom: 15px;}
+  .details ul {padding-left: 20px;}
+ /*---------details-start---------*/
 }
 
 @media only screen and (max-width:767.98px){
@@ -354,6 +360,10 @@
     .custom-gallery .custom-heading h3 {padding-bottom: 20px;}
     
     /*-----custom-gallery-end------*/
+     /*---------details-start---------*/
+  .details ul {padding-left: 15px;}
+  .details .custom-heading h3{padding-bottom: 10px;}
+ /*---------details-start---------*/
 
 }
 
