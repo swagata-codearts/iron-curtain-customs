@@ -9,6 +9,7 @@
 @media (min-width: 1366px) and (max-width: 1600px){
 .custom-button {padding: 13px 50px 15px;;font-size: 14px;}
 .custom-inner-banner {padding: 150px 0 80px 0;}
+.container {max-width: 1300px;}
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -21,6 +22,7 @@
 .custom-inner-banner .inner-banner-text .breadcrumb-item.active {font-size: 18px;}
 .custom-paragraph {font-size: 14px;line-height: 30px;}
 .custom-inner-banner {padding: 130px 0 80px 0;}
+.container {max-width: 1200px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
