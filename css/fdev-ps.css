@@ -365,6 +365,12 @@ gap: 0 15px;
 .contact-us .contact-us-right-part .contact-us-map iframe {height: 160px;}
 .contact-us-form .form-wrap textarea {height: 160px;}
 /* Contact us End */
+/* Request Quote start */
+.request-quote .custom-heading h3 {font-size: 24px;padding-bottom: 4px;}
+.request-quote .custom-heading p {font-size: 12px;line-height: 14px;padding-bottom: 18px;}
+.request-quote .contact-us-form .form-wrap .form-check-label {padding-bottom: 0;font-size: 13px;padding-left: 0;}
+.request-quote .contact-us-form .form-wrap .form-input-text {font-size: 12px;line-height: 14px;padding-bottom: 6px;}
+/* Request Quote End */
 }
 
 @media only screen and (max-width: 480.98px) {	
