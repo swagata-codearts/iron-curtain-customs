@@ -201,14 +201,14 @@ padding: 25px 0;
 margin-top: 45px;
 }
 .footer-3-content .footer-img-2 {
-  margin-top: 45px;
-  }
+margin-top: 45px;
+}
 .footer-3-content .footer-img-2 li {
-  display: inline-block;
-  }
+display: inline-block;
+}
 .footer-3-content .footer-img-2 {
-    display: none;
-  }
+  display: none;
+}
 /*footer-end*/
 /*About-ICC-inner-start*/
 .hero-img img {
@@ -346,50 +346,64 @@ padding-top: 200px;
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 .details-img {
-    object-fit: cover;
+  object-fit: cover;
 }
 .details-img img {
-    width: 100%;
+  width: 100%;
 }
 .details-content {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .galil-believing .custom-paragraph {
-    padding: 0 0 30px 0;
-    color: var(--c-light-grey);
-  }
-  .details-img .custom-paragraph {
-    text-align: center;
-    margin-top: 6px;
-    font-size: 18px;
-    font-weight: 600;
-  }
-  .galil-details.custom-pad .custom-heading h5 {
-    line-height: 0;
+  padding: 0 0 30px 0;
+  color: var(--c-light-grey);
+}
+.details-img .custom-paragraph {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.galil-details.custom-pad .custom-heading h5 {
+  line-height: 0;
 }
 .galil-believing.custom-pad .custom-button:hover {
-    border: 2px solid var(--c-white);
+  border: 2px solid var(--c-white);
 }
 .galil-believing.custom-pad {
-    background-image: url(../images/product-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    text-align: center;
+  background-image: url(../images/product-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
 }
 .galil-47-gallery {
-    object-fit: cover;
-    overflow: hidden;
-    padding: 25px 0 0px 0;
-    height: 600px;
-  }
-  .galil-47-gallery img {
-    width: 100%;
-  }
-  .galil-gallery.custom-pad {
-    background-color: #f9f9f9;
-  }
+  object-fit: cover;
+  overflow: hidden;
+  padding: 25px 0 0px 0;
+  height: 600px;
+}
+.galil-47-gallery img {
+  width: 100%;
+}
+.galil-gallery.custom-pad {
+  background-color: #f9f9f9;
+}
+.galil-gallery .owl-dots {
+  text-align: center;
+}
+.galil-gallery .owl-dots button.owl-dot.active {
+  background-color: var(--c-primary-text);
+}
+.galil-gallery .owl-dots button.owl-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  background: var(--c-light-grey);
+  margin: 0 12px;
+}
 /*Galil-47-inner-end*/
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
@@ -450,7 +464,7 @@ padding-top: 200px;
 .footer-1-content .footer-img {margin-top: 40px;}
 .copyright p {font-size: 14px;padding: 20px 0;}
 .copyright {margin-top: 67px;}
-.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end !important;}
+.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {width: 85%;}
 /*About-ICC-inner-start*/
 
 /*About-ICC-inner-end*/
@@ -585,17 +599,17 @@ padding-top: 200px;
 @media only screen and (max-width: 991.98px) {    
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 15px;}
 .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
-.custom-header .nav-item .nav-link {font-size: 13px;}
-.custom-header .nav-item .nav-link.active {font-size: 13px;}
-.custom-header .nav-item {margin-left: 0px;}
+.custom-header .nav-item .nav-link {font-size: 13px;margin-left: 10px;}
+.custom-header .nav-item .nav-link.active {font-size: 13px;margin-left: 10px;}
+.custom-header .nav-item {margin-left: 0px;border-bottom: 1px dotted var(--c-light-grey);}
 .custom-header .navbar-brand.header-logo.ms-0.py-0 {padding-bottom: .3125rem !important;}
 .main-banner h1 {font-size: 35px;line-height: 42px;}
 .main-banner .carousel-caption.d-none.d-md-block {padding: 0 190px;}
 .banner-button .custom-button {margin-top: 25px;}
-.main-banner .carousel-indicators {margin-right: 10%;}
+.main-banner .carousel-indicators {margin-right: 13%;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 38.5%;}
 .main-banner .carousel-indicators {margin-bottom: 32px;}
-.footer-1-content p {font-size: 12px;margin-top: 30px;line-height: 25px;}
+.footer-1-content p {font-size: 12px;margin-top: 20px;line-height: 25px;}
 .footer-wrap .footer-break-list li a {font-size: 12px;}
 .footer-wrap .footer-list li a {font-size: 12px;}
 .footer-wrap {padding: 50px 0 0;}
@@ -622,9 +636,14 @@ padding-top: 200px;
 .footer-wrap .footer-list li a {font-size: 12px;}
 .copyright p {font-size: 12px;}
 .footer-1-content {text-align: center;}
+.footer-3-content .footer-img-2 {display:block;}
+.footer-1-content .footer-img {display:none;}
+.footer-3-content .footer-img-2 {margin-top: 25px;}
 .footer-2 {margin-top: 30px;}
 .footer-3 {margin-top: 30px;}
 .custom-header {margin-top: 14px;}
+.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {text-align: left;margin-bottom: 0rem !important;}
+.main-banner .carousel-indicators [data-bs-target] {width: 6px;height: 6px;margin-right: 15px;}
 
 .custom-header .navbar-toggler {border: none;height: 35px; float: left;margin: 0; height: 45px; width: 45px; border-radius: 4px;z-index: 1;background-color: var(--c-primary-text);}
 .custom-header .navbar-toggler .icon-bar { width: 24px; background:var(--c-white) ;transition: .5s ease;}
@@ -645,7 +664,7 @@ padding-top: 200px;
 .about-us-categories.custom-pad {padding-top: 120px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
-.galil-47-gallery {height: 500px;}
+.galil-47-gallery {height: 345px;}
 .details-content {margin-top: 10px;}
 .details-img .custom-paragraph {font-size: 14px;}
 .details-img .custom-paragraph {margin-top: 10px;}
@@ -668,14 +687,12 @@ padding-top: 200px;
 .custom-header .navbar-toggler {height: 35px;}
 .main-banner .d-md-block {display: block !important;}
 .main-banner h1 {font-size: 28px;line-height: 32px;}
-.main-banner .carousel-caption.d-none.d-md-block {padding: 0 150px;}
+.main-banner .carousel-caption.d-none.d-md-block {padding: 0 140px;}
 .banner-button .custom-button {margin-top: 25px;}
 .custom-header .header-icon {top: 1px;}
-.footer-wrap .footer-break-list {column-count: unset;}
-.footer-3 {text-align: center;}
-.footer-2 {text-align: center;}
-.main-banner .carousel-caption.d-none.d-md-block {top: 35.5%;}
+.main-banner .carousel-caption.d-none.d-md-block {top: 37.5%;}
 .main-banner .carousel-indicators {margin-bottom: 15px;}
+.main-banner .d-block.w-100 {object-fit: cover;height: 35vh;}
 /*About-ICC-inner-start*/
 .categories-1 {height: 350px;}
 .categories-2 {height: 350px;}
@@ -685,7 +702,7 @@ padding-top: 200px;
 .about-us-categories.custom-pad {padding-top: 100px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
-
+.galil-47-gallery {height: 365px;}
 /*Galil-47-inner-end*/
 }
 
@@ -700,8 +717,7 @@ padding-top: 200px;
 .navbar-brand.header-logo.ms-0.py-0 img {width: 150px;}
 .custom-header .navbar-toggler {height: 35px;border-radius: 3px;}
 .footer-logo img {width: 70%;}
-.footer-wrap .footer-list {margin-left: 40px;}
-.main-banner .d-block.w-100 {object-fit: cover;height: 25vh;}
+.main-banner .d-block.w-100 {height: 32vh;}
 /*About-ICC-inner-start*/
 .hero-img-content .custom-paragraph {text-align: center;}
 .categories-1 {height: 300px;}
@@ -710,18 +726,16 @@ padding-top: 200px;
 .about-us-categories.custom-pad {padding-top: 80px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
-
+.galil-47-gallery {height: 610px;}
 /*Galil-47-inner-end*/
 }
 
 @media only screen and (max-width: 480.98px) {	
-.main-banner .carousel-indicators {display: none;}
 .main-banner h1 {font-size:20px;line-height: 22px;}
-.banner-button .custom-button {margin-top: 15px;}
+.main-banner .carousel-indicators {margin-right: 10%;}
 .main-banner .carousel-caption.d-none.d-md-block {padding: 0 15px;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 44%;}
 .custom-header {margin-top: 5px;}
-.footer-wrap .footer-list {margin-left: 20px;}
 /*About-ICC-inner-start*/
 .category-content .custom-paragraph {font-size: 12px;}
 .categories-1 {height: 200px;}
@@ -732,7 +746,7 @@ padding-top: 200px;
 .about-us-categories.custom-pad {padding-top: 60px;}
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
-
+.galil-47-gallery {height: 390px;}
 /*Galil-47-inner-end*/
 }
 /*Responsive-end*/
