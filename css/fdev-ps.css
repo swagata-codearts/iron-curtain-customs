@@ -108,23 +108,28 @@ letter-spacing: 0.40px;
 color: var(--c-semi-grey);
 padding-bottom: 20px;
 }
-.contact-us .contact-us-left-part .contact-us-form .form-wrap label{
+/* .contact-us .contact-us-left-part  */
+.contact-us-form .form-wrap label{
 color: var(--c-semi-grey);
 padding-bottom: 8px;
 padding-left: 10px;
 font-size: 20px;
 font-weight: 500;
 }
-.contact-us .contact-us-left-part .contact-us-form .form-wrap input,.contact-us .contact-us-left-part .contact-us-form .form-wrap textarea{
+/* .contact-us .contact-us-left-part  */
+.contact-us-form .form-wrap input,.contact-us-form .form-wrap textarea{
 font-size: 13px;
 border: 2px solid var(--c-grey-100);
 padding: 12px 14px;
 margin-bottom: 10px;
+font-family: var(--ff-secondary);
 }
-.contact-us .contact-us-left-part .contact-us-form .form-wrap textarea{
+/* .contact-us .contact-us-left-part */
+.contact-us-form .form-wrap textarea{
 height: 200px;
 }
-.contact-us .contact-us-left-part .contact-us-form .form-btn input{
+/* .contact-us .contact-us-left-part  */
+.contact-us-form .form-btn input{
 width: 100%;
 }
 .contact-us .contact-us-right-part .custom-heading h3{
@@ -154,13 +159,35 @@ border: 1px solid var(--c-light-grey);
 /* ***********Contact Us Start********** */
 
 /* ***********Request Quote Start********** */
+.request-quote .custom-heading h3 {
+font-size: 30px;
+padding-bottom: 20px;
+}
 .request-quote .custom-heading p{
 font-family: var(--ff-secondary);
 font-weight: 400;
-font-size: 22px;
+font-size: 18px;
 line-height: 24px;
 color: var(--c-semi-grey);
 padding-bottom: 40px;
+}
+.request-quote .contact-us-form .form-wrap .form-check-input{
+padding: 5px;
+margin-top: 6px;
+}
+.request-quote .contact-us-form .form-wrap .form-check-label{
+padding-bottom: 8px;
+padding-left: 5px;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0.4px;
+}
+.request-quote .contact-us-form .form-wrap .form-input-text{
+color: var(--c-semi-grey);
+padding-bottom: 5px;
+padding-left: 10px;
+font-size: 17px;
+font-weight: 400;
 }
 .request-bottom{
 padding: 15px 0;
@@ -169,7 +196,7 @@ background-color: var(--c-light-grey);
 .request-bottom .request-bottom-icon a span i{
 gap: 0 15px;
 }
-/* ***********Request Quote Start********** */
+/* ***********Request Quote End********** */
 
 /* ***********Responsive Start********** */
 
@@ -215,7 +242,7 @@ gap: 0 15px;
 /* Contact us start */
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 38px;line-height: 37px;}
 .contact-us .contact-us-right-part {padding-top: 19px;}
-  /* Contact us end */
+/* Contact us end */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -239,8 +266,8 @@ gap: 0 15px;
 .contact-us .contact-us-right-part {padding-top: 22px;}
 .contact-us .contact-us-left-part p {padding-bottom: 25px;}
 .contact-us .contact-us-right-part .contact-us-map iframe {height: 258px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {margin-bottom: 8px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 6px;}
+.contact-us-form .form-wrap input, .contact-us-form .form-wrap textarea {margin-bottom: 8px;}
+.contact-us-form .form-wrap label {padding-bottom: 6px;}
 /* Contact us end */
 }
 
@@ -262,13 +289,19 @@ gap: 0 15px;
 /* Contact us Start */
 .contact-us .custom-heading,.contact-us .contact-us-text {text-align: center;padding-bottom: 0px;}
 .contact-us .contact-us-left-part p {font-size: 20px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 6px;font-size: 18px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {font-size: 12px;margin-bottom: 8px;}
+.contact-us-form .form-wrap label {padding-bottom: 6px;font-size: 18px;}
+.contact-us-form .form-wrap input, .contact-us-form .form-wrap textarea {font-size: 12px;margin-bottom: 8px;}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 38px;line-height: 37px;padding-bottom: 25px;}
 .contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 18px;line-height: 22px;padding-bottom: 20px;}
 .contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 14px;}
 .contact-us .contact-us-right-part .contact-us-text {padding-bottom: 25px;}
 /* Contact us End */
+/* Request Quote Start */
+.request-quote .custom-heading p {font-size: 14px;line-height: 18px;padding-bottom: 25px;}
+.request-quote .custom-heading h3 {padding-bottom: 10px;}
+.request-quote .contact-us-form .form-wrap .form-check-label {padding-bottom: 4px;font-size: 16px;}
+.request-quote .contact-us-form .form-wrap .form-input-text {padding-bottom: 3px;font-size: 15px;}
+/* Request Quote End */
 
 }
 
@@ -289,15 +322,20 @@ gap: 0 15px;
 .get-in-touch .get-in-map-heading h5 {font-size: 17px;padding-bottom: 24px;}  
 /* Contact us Start */
 .contact-us .contact-us-left-part p {font-size: 17px;padding-bottom: 15px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 4px;font-size: 16px;padding-left: 6px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {margin-bottom: 5px;padding: 10px;border: 1px solid var(--c-grey-100);}
+.contact-us-form .form-wrap label {padding-bottom: 4px;font-size: 16px;padding-left: 6px;}
+.contact-us-form .form-wrap input, .contact-us-form .form-wrap textarea {margin-bottom: 5px;padding: 10px;border: 1px solid var(--c-grey-100);}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 30px;line-height: 28px;padding-bottom: 15px;}
 .contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 16px;line-height: 19px;padding-bottom: 13px;}
 .contact-us .contact-us-right-part .contact-us-text {padding-bottom: 15px;}
 .contact-us .contact-us-right-part .contact-us-map iframe {height: 240px;}
 .contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 15px;}
 .contact-us .contact-us-right-part {padding-top: 10px;}
-/* Contact us End */  
+/* Contact us End */ 
+/* Request Quote start */
+.request-quote .custom-heading p {line-height: 15px;padding-bottom: 20px;} 
+.request-quote .custom-heading h3 {font-size: 28px;}
+.request-quote .contact-us-form .form-wrap .form-input-text{padding-left: 6px;}
+  /* Request Quote End */
 }
 
 @media (max-width: 575.98px){
@@ -319,12 +357,13 @@ gap: 0 15px;
 /* Contact us start */
 .contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 6px;}
 .contact-us .contact-us-left-part p {font-size: 13px;padding-bottom: 8px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 0px;font-size: 13px;}
-.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {padding: 7px;}
+.contact-us-form .form-wrap label {padding-bottom: 0px;font-size: 13px;}
+.contact-us-form .form-wrap input, .contact-us-form .form-wrap textarea {padding: 7px;}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 24px;line-height: 24px;padding-bottom: 6px;}
 .contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 13px;line-height: 15px;padding-bottom: 10px;}
 .contact-us .contact-us-right-part .contact-us-text {padding-bottom: 8px;}
 .contact-us .contact-us-right-part .contact-us-map iframe {height: 160px;}
+.contact-us-form .form-wrap textarea {height: 160px;}
 /* Contact us End */
 }
 
