@@ -35,7 +35,7 @@ padding: 21px 0px;
 margin-bottom: 30px
 }
 .counter-section .counter-col:not(:last-child) .counter-box {
-border-right: 2px solid var(--c-grey);
+border-right: 1px solid var(--c-grey);
 }
 .get-in-touch {
 padding-bottom: 89px;
@@ -81,6 +81,7 @@ height: 315px;
 }
 .get-in-touch .get-in-right .get-in-form .form-wrap input,.get-in-touch .get-in-right .get-in-form .form-wrap textarea{    
 font-size: 13px;
+font-family: var(--ff-secondary);
 border: 2px solid var(--c-grey-100);
 padding: 15px 22px;
 margin-bottom: 19px;
@@ -184,10 +185,17 @@ padding-bottom: 40px;
 .get-in-touch .get-in-left .get-in-map iframe {width: 580px;}
 }
 
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1366px) and (max-width: 1600px){
 .get-in-touch {padding-bottom: 80px;padding-top: 180px;}
 .get-in-touch .custom-heading {margin-bottom: 40px;}
 .get-in-touch .get-in-left,.get-in-touch .get-in-right {padding-left: 20px;}
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+    .get-in-touch {padding-bottom: 80px;padding-top: 180px;}
+    .get-in-touch .custom-heading {margin-bottom: 40px;}
+    .get-in-touch .get-in-left,.get-in-touch .get-in-right {padding-left: 20px;}
+    .counter-section .counter-bottom-img img {width: 70%;}
+    .counter-section .counter-bottom-img {bottom: -103px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){    
