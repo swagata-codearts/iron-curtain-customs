@@ -102,16 +102,19 @@
   outline: none;
 }
 
+.our-product .owl-nav{display: none;}
+
 .our-product .owl-nav {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 0;
   right: 0;
 }
 
 
 .our-product .owl-nav .owl-prev span, .owl-next span {
-	color: #FFF;
+	color: var(--c-grey-100);
+  font-size: 50px;
 }
 
 .our-product .owl-nav .owl-prev span:hover, 
@@ -121,12 +124,12 @@
 
 .our-product .owl-nav .owl-prev {
   position: absolute;
-  left: 0;
+  left: -12px;
 }
 
 .our-product .owl-nav .owl-next {
   position: absolute;
-  right: 0;
+  right: -12px;
 }
 
 
@@ -209,6 +212,9 @@
   /*-----about-us-end--------*/
   /*------our-product-start------*/
   .our-product .owl-carousel .owl-item .img-wrap img {height: 400px;object-fit: cover;}
+  .our-product .owl-dots{padding-top: 20px;}
+  .our-product .owl-nav{display: none;}
+
   /*------our-product-end------*/
   /*--------custom-gallery-start---------*/
   .light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child img {height: 305px;object-fit: cover;}
@@ -226,7 +232,6 @@
      /*--------custom-gallery-start---------*/
   .light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child img {height: 277px;object-fit: cover;}
   /*--------custom-gallery-end---------*/
-    
 }
 
 @media (min-width:1024px) and (max-width:1200px){
@@ -234,7 +239,7 @@
   .our-product .owl-carousel .owl-item .img-wrap img {height: 350px;object-fit: cover;}
   .our-product .owl-dots {padding-top: 20px;}
   /*------our-product-end------*/
-
+  
 }
 
 @media (min-width:992px) and (max-width:1024px){
@@ -320,6 +325,7 @@
   .our-product .owl-carousel .owl-item img{object-fit: cover;height: 300px;}
   .our-product {padding: 30px 0 30px 0;}
   .our-product .owl-dots{display: none;}
+  .our-product .owl-nav{display: block;}
   /*our-product-end-*/
     /*iron-gallery-start*/
     .iron-gallery-img img {padding: 10px;}
@@ -327,6 +333,8 @@
     /*-----custom-gallery-start------*/
     .gallery-custom-img {padding-bottom: 10px;}
     .light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child{padding-top: 0;}
+    .custom-gallery .custom-heading h3 {padding-bottom: 20px;}
+    
     /*-----custom-gallery-end------*/
 
 }
