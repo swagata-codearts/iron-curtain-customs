@@ -114,7 +114,6 @@ background-color: var(--c-primary-text);
 /*banner-end*/
 /*footer-start*/
 .footer-wrap {
-background-image: url(../images/footer-bg.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -157,6 +156,7 @@ font-family: var(--ff-secondary);
 color: var(--c-light-grey);
 font-size: 14px;
 font-weight: 400;
+line-height: 29px;
 }
 .footer-wrap .footer-list li a:hover {
 color: var(--c-primary-text);
