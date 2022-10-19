@@ -450,7 +450,7 @@ padding-top: 200px;
 .footer-1-content .footer-img {margin-top: 40px;}
 .copyright p {font-size: 14px;padding: 20px 0;}
 .copyright {margin-top: 67px;}
-.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end !important;}
+.custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {width: 85%;}
 /*About-ICC-inner-start*/
 
 /*About-ICC-inner-end*/
