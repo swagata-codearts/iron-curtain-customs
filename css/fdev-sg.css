@@ -95,9 +95,9 @@ line-height: 100px;
 margin-top: 50px;
 }
 .main-banner .carousel-indicators [data-bs-target] {
-width: 8px;
-height: 8px;
-margin-right: 13px;
+width: 7px;
+height: 7px;
+margin-right: 23px;
 border-top: none;
 border-bottom: none;
 opacity: 1;
@@ -197,7 +197,18 @@ color: var(--c-light-grey);
 font-size: 15px;
 font-weight: 400;
 padding: 25px 0;
+}.footer-1-content .footer-img {
+margin-top: 45px;
 }
+.footer-3-content .footer-img-2 {
+  margin-top: 45px;
+  }
+.footer-3-content .footer-img-2 li {
+  display: inline-block;
+  }
+.footer-3-content .footer-img-2 {
+    display: none;
+  }
 /*footer-end*/
 /*About-ICC-inner-start*/
 .hero-img img {
@@ -429,6 +440,7 @@ padding-top: 200px;
 .banner-button .custom-button {margin-top: 45px;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 38.5%;}
 .main-banner .carousel-indicators {margin-bottom: 32px;}
+.main-banner .carousel-caption.d-none.d-md-block {padding: 0 360px;}
 .footer-1-content p {font-size: 14px;margin-top: 50px;}
 .footer-wrap .footer-break-list li a {font-size: 14px;}
 .footer-wrap .footer-list li a {font-size: 14px;}
@@ -580,6 +592,7 @@ padding-top: 200px;
 .main-banner h1 {font-size: 35px;line-height: 42px;}
 .main-banner .carousel-caption.d-none.d-md-block {padding: 0 190px;}
 .banner-button .custom-button {margin-top: 25px;}
+.main-banner .carousel-indicators {margin-right: 10%;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 38.5%;}
 .main-banner .carousel-indicators {margin-bottom: 32px;}
 .footer-1-content p {font-size: 12px;margin-top: 30px;line-height: 25px;}
@@ -662,6 +675,7 @@ padding-top: 200px;
 .footer-3 {text-align: center;}
 .footer-2 {text-align: center;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 35.5%;}
+.main-banner .carousel-indicators {margin-bottom: 15px;}
 /*About-ICC-inner-start*/
 .categories-1 {height: 350px;}
 .categories-2 {height: 350px;}
@@ -678,7 +692,6 @@ padding-top: 200px;
 @media (max-width: 575.98px){
 .main-banner h1 {font-size: 22px;line-height: 30px;}
 .banner-button .custom-button {margin-top: 15px;}
-.main-banner .carousel-indicators {margin-bottom: 10px;}
 .main-banner .carousel-caption.d-none.d-md-block {padding: 0 80px;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 38%;}
 .banner-button .custom-button {margin-top: 25px;}
@@ -688,6 +701,7 @@ padding-top: 200px;
 .custom-header .navbar-toggler {height: 35px;border-radius: 3px;}
 .footer-logo img {width: 70%;}
 .footer-wrap .footer-list {margin-left: 40px;}
+.main-banner .d-block.w-100 {object-fit: cover;height: 25vh;}
 /*About-ICC-inner-start*/
 .hero-img-content .custom-paragraph {text-align: center;}
 .categories-1 {height: 300px;}
