@@ -1,5 +1,6 @@
 // JavaScript Document
 jQuery('#product-carousel').owlCarousel({
+
 loop:true,
 margin:10,
 nav:true,
