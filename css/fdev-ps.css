@@ -35,7 +35,7 @@ padding: 21px 0px;
 margin-bottom: 30px
 }
 .counter-section .counter-col:not(:last-child) .counter-box {
-border-right: 2px solid var(--c-grey);
+border-right: 1px solid var(--c-grey);
 }
 .get-in-touch {
 padding-bottom: 89px;
@@ -81,6 +81,7 @@ height: 315px;
 }
 .get-in-touch .get-in-right .get-in-form .form-wrap input,.get-in-touch .get-in-right .get-in-form .form-wrap textarea{    
 font-size: 13px;
+font-family: var(--ff-secondary);
 border: 2px solid var(--c-grey-100);
 padding: 15px 22px;
 margin-bottom: 19px;
@@ -96,8 +97,8 @@ border: 2px solid var(--c-primary-text);
 } 
 /* ***********Contact Us Start********** */
 .contact-us .contact-us-left-part .custom-heading h3{
-    padding-bottom: 30px;
-    margin-top: 10px;
+padding-bottom: 30px;
+margin-top: 10px;
 }
 .contact-us .contact-us-left-part p{
 font-family: var(--ff-secondary);
@@ -121,44 +122,40 @@ padding: 12px 14px;
 margin-bottom: 10px;
 }
 .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea{
-    height: 200px;
+height: 200px;
 }
 .contact-us .contact-us-left-part .contact-us-form .form-btn input{
-    width: 100%;
+width: 100%;
 }
 .contact-us .contact-us-right-part .custom-heading h3{
-    font-size: 44px;
-    line-height: 45px;
-    padding-bottom: 32px;
+font-size: 44px;
+line-height: 45px;
+padding-bottom: 32px;
 }
 .contact-us .contact-us-right-part .contact-us-text{
-    padding-bottom: 40px;
+padding-bottom: 40px;
 }
 .contact-us .contact-us-right-part .contact-us-text p a,.contact-us .contact-us-right-part .contact-us-text p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.40px;
-    color: var(--c-semi-grey);
-    padding-bottom: 26px;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.40px;
+color: var(--c-semi-grey);
+padding-bottom: 26px;
 }
 .contact-us .contact-us-right-part .contact-us-text p a:hover{
-    color: var(--c-primary-text);
+color: var(--c-primary-text);
 }
 .contact-us  .contact-us-right-part .contact-us-map iframe{
-    width: 100%;
-    height: 281px;
-    border: 1px solid var(--c-light-grey);
+width: 100%;
+height: 281px;
+border: 1px solid var(--c-light-grey);
 }
-/* .contact-us .contact-us-map iframe{
-    width: 100%;
-    height: 450px;
-} */
 /* ***********Contact Us Start********** */
 
 /* ***********Request Quote Start********** */
 .request-quote .custom-heading p{
-    font-family: var(--ff-secondary);
+font-family: var(--ff-secondary);
 font-weight: 400;
 font-size: 22px;
 line-height: 24px;
@@ -166,11 +163,11 @@ color: var(--c-semi-grey);
 padding-bottom: 40px;
 }
 .request-bottom{
-    padding: 15px 0;
-    background-color: var(--c-light-grey);
+padding: 15px 0;
+background-color: var(--c-light-grey);
 }
 .request-bottom .request-bottom-icon a span i{
-    gap: 0 15px;
+gap: 0 15px;
 }
 /* ***********Request Quote Start********** */
 
@@ -184,36 +181,67 @@ padding-bottom: 40px;
 .get-in-touch .get-in-left .get-in-map iframe {width: 580px;}
 }
 
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1366px) and (max-width: 1600px){
 .get-in-touch {padding-bottom: 80px;padding-top: 180px;}
 .get-in-touch .custom-heading {margin-bottom: 40px;}
 .get-in-touch .get-in-left,.get-in-touch .get-in-right {padding-left: 20px;}
+.get-in-touch .get-in-left .get-in-map iframe {height: 325px;}
+/* Contact us start */
+.contact-us .contact-us-right-part .contact-us-map iframe {height: 288px;}
+/* Contact us End */
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+.get-in-touch {padding-bottom: 80px;padding-top: 180px;}
+.get-in-touch .custom-heading {margin-bottom: 40px;}
+.get-in-touch .get-in-left,.get-in-touch .get-in-right {padding-left: 20px;}
+.counter-section .counter-bottom-img img {width: 65%;}
+.counter-section .counter-bottom-img {bottom: -111px;}
+/* Contact us start */
+.contact-us .contact-us-right-part .contact-us-map iframe {height: 275px;}
+/* Contact us end */
 }
 
-@media (min-width: 1024px) and (max-width: 1200px){    
+@media (min-width: 1024px) and (max-width: 1200px){  
+.counter-section .counter-bottom-img img {width: 72%;}
+.counter-section .counter-bottom-img {bottom: -107px;}  
 .get-in-touch {padding-bottom: 80px;padding-top: 160px;}
 .get-in-touch .custom-heading {margin-bottom: 30px;}
 .get-in-touch .get-in-left,.get-in-touch .get-in-right {padding-left: 20px;}
-.get-in-touch .get-in-left .get-in-map iframe {width: 100%;}
+.get-in-touch .get-in-left .get-in-map iframe {width: 100%;height: 318px;}
 .get-in-touch .get-in-heading h4 {line-height: 35px;padding-bottom: 25px;}
 .get-in-touch .get-in-text p, .get-in-touch .get-in-text p a {font-size: 17px;line-height: 28px;padding-bottom: 10px;}
 .get-in-touch .get-in-map-heading h5 {padding-bottom: 50px;}
 .get-in-touch .get-in-right .get-in-form .form-wrap input, .get-in-touch .get-in-right .get-in-form .form-wrap textarea {padding: 15px 16px;margin-bottom: 13px;}
+/* Contact us start */
+.contact-us .contact-us-right-part .custom-heading h3 {font-size: 38px;line-height: 37px;}
+.contact-us .contact-us-right-part {padding-top: 19px;}
+  /* Contact us end */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-.counter-section .counter-bottom-img img {width: 80%;}
-.counter-section .counter-bottom-img {bottom: -98px;}
+.counter-section .counter-bottom-img img {width: 75%;}
+.counter-section .counter-bottom-img {bottom: -95px;}
 .counter-section .count-number-and-unit span, .counter-section .count-number-and-unit {font-size: 54px;}
 .counter-section .count-title {font-size: 24px;}
 .get-in-touch {padding-bottom: 80px;padding-top: 170px;}
 .get-in-touch .custom-heading {margin-bottom: 30px;}
 .get-in-touch .get-in-left,.get-in-touch .get-in-right {padding-left: 15px;}
-.get-in-touch .get-in-left .get-in-map iframe {width: 100%;}
+.get-in-touch .get-in-left .get-in-map iframe {width: 100%;height: 318px;}
 .get-in-touch .get-in-heading h4 {line-height: 35px;padding-bottom: 25px;font-size: 28px;}
 .get-in-touch .get-in-text p, .get-in-touch .get-in-text p a {font-size: 17px;line-height: 28px;padding-bottom: 10px;}
 .get-in-touch .get-in-map-heading h5 {padding-bottom: 50px;}
 .get-in-touch .get-in-right .get-in-form .form-wrap input, .get-in-touch .get-in-right .get-in-form .form-wrap textarea {padding: 15px 16px;margin-bottom: 13px;}
+/* Contact us start */
+.contact-us .contact-us-right-part .custom-heading h3 {font-size: 38px;line-height: 37px;}
+.contact-us .contact-us-right-part .contact-us-text {text-align: center;padding-bottom: 34px;}
+.contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 14px;}  
+.contact-us .custom-heading {text-align: center;}
+.contact-us .contact-us-right-part {padding-top: 22px;}
+.contact-us .contact-us-left-part p {padding-bottom: 25px;}
+.contact-us .contact-us-right-part .contact-us-map iframe {height: 258px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {margin-bottom: 8px;}
+.contact-us .contact-us-left-part .contact-us-form .form-wrap label {padding-bottom: 6px;}
+/* Contact us end */
 }
 
 @media only screen and (max-width: 991.98px) { 
@@ -223,7 +251,7 @@ padding-bottom: 40px;
 .counter-section .counter-bottom-img{bottom: -65px;}
 .get-in-touch .get-in-left,.get-in-touch .get-in-right {padding-left: 10px;text-align: center;}
 .get-in-touch .get-in-right {padding-top: 20px;}
-.get-in-touch {padding-bottom: 60px;padding-top: 120px;}
+.get-in-touch {padding-bottom: 50px;padding-top: 120px;}
 .get-in-touch .custom-heading {margin-bottom: 15px;}   
 .get-in-touch .get-in-heading h4 {font-size: 26px;line-height: 30px;padding-bottom: 15px;}
 .get-in-touch .get-in-text p, .get-in-touch .get-in-text p a {font-size: 16px;line-height: 23px;padding-bottom: 8px;}
@@ -238,15 +266,15 @@ padding-bottom: 40px;
 .contact-us .contact-us-left-part .contact-us-form .form-wrap input, .contact-us .contact-us-left-part .contact-us-form .form-wrap textarea {font-size: 12px;margin-bottom: 8px;}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 38px;line-height: 37px;padding-bottom: 25px;}
 .contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 18px;line-height: 22px;padding-bottom: 20px;}
-.contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 23px;}
-    .contact-us .contact-us-right-part .contact-us-text {padding-bottom: 25px;}
+.contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 14px;}
+.contact-us .contact-us-right-part .contact-us-text {padding-bottom: 25px;}
 /* Contact us End */
 
 }
 
 @media (max-width: 767.98px){
-    .counter-section .counter-col:not(:last-child) .counter-box {border-right: none;}
-    .counter-section .counter-box {padding: 10px 0px;margin-bottom: 10px;}
+.counter-section .counter-col:nth-child(even) .counter-box {border-right: none;}
+.counter-section .counter-box {padding: 10px 0px;margin-bottom: 10px;}
 .counter-section .counter-box {padding: 14px 0px;margin-bottom: 20px;}
 .counter-section .counter-bottom-img {bottom: -49px;}
 .get-in-touch {padding-bottom: 30px;padding-top: 100px;}
@@ -278,11 +306,11 @@ padding-bottom: 40px;
 .counter-section .counter-box {padding: 10px 0px;margin-bottom: 15px;}
 .counter-section .counter-bottom-img {bottom: -28px;}
 .counter-section .counter-box {padding: 6px 0px;margin-bottom: 0;}
-.get-in-touch {padding-bottom: 15px;padding-top: 60px;}
+.get-in-touch {padding-top: 60px;}
 .get-in-touch .get-in-left .get-in-map iframe {height: 170px;}
 .get-in-touch .get-in-heading h4 {font-size: 18px;line-height: 20px;padding-bottom: 8px;}
 .get-in-touch .custom-heading {margin-bottom: 0px;}
-.get-in-touch .get-in-right .get-in-form .form-wrap input, .get-in-touch .get-in-right .get-in-form .form-wrap textarea {margin-bottom: 5px;padding: 10px 11px;border: 1px solid var(--c-grey-100);}
+.get-in-touch .get-in-right .get-in-form .form-wrap input, .get-in-touch .get-in-right .get-in-form .form-wrap textarea {padding: 10px 11px;border: 1px solid var(--c-grey-100);}
 .get-in-touch .get-in-right .get-in-form .form-wrap textarea {height: 155px;}
 .get-in-touch .get-in-text p, .get-in-touch .get-in-text p a {font-size: 13px;line-height: 19px;}
 .get-in-touch .get-in-text { padding-bottom: 8px;}
