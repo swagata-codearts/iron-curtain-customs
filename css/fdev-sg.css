@@ -395,6 +395,7 @@ padding-top: 200px;
 }
 .galil-gallery .owl-dots {
   text-align: center;
+  margin-top: 20px;
 }
 .galil-gallery .owl-dots button.owl-dot.active {
   background-color: var(--c-primary-text);
@@ -407,6 +408,7 @@ padding-top: 200px;
   background: var(--c-light-grey);
   margin: 0 12px;
 }
+.galil-gallery {margin-top: 30px;}
 /*Galil-47-inner-end*/
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
