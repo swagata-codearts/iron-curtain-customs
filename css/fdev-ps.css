@@ -96,39 +96,73 @@ width: 100%;
 border: 2px solid var(--c-primary-text);
 } 
 /* ***********Contact Us Start********** */
-.contact-us .contact-us-left-part .custom-heading h3{
-padding-bottom: 30px;
+/* ++++++ */
+.contact-card{
+  background-color: var(--c-grey-100);
+}
+.contact-card .contact-card-wrap .card{
+  text-align: center;
+  width: 350px;
+  height: 160px;
+  border: 4px solid var(--c-light-grey);
+  box-shadow: 0 4px 8px 0 var(--c-grey), 0 6px 20px 0 var(--c-light-grey);
+  position: relative;
+}
+.contact-card .contact-card-wrap .card-left-img{
+  position: absolute;
+  top: 7px;
+  left: 4px;
+  border: 1px solid var(--ff-primary);
+}
+.contact-card .contact-card-wrap .card-left-img img{
+  height: 40px;
+}
+.contact-card .contact-card-wrap .card .card-title{
+font-family: var(--ff-primary);
+font-size: 22px;
+font-weight: 600;
+color: var(--c-primary-text);
+text-transform: uppercase;
+letter-spacing: 0.4px;
+line-height: 27px;
+}
+.contact-card .contact-card-wrap .card .card-text a,.contact-card .contact-card-wrap .card .card-text{
+  font-family: var(--ff-primary);
+font-weight: 400;
+font-size: 16px;
+color: var(--c-semi-grey);
+line-height: 28px;
+}
+.contact-card .contact-card-wrap .card .card-text a:hover{
+  color: var(--c-primary-text);
+}
+/* ++++++ */
+.contact-us .custom-heading{
+  padding-bottom: 80px;
+}
+.contact-us .custom-heading h3{
+padding-bottom: 15px;
 margin-top: 10px;
 }
-.contact-us .contact-us-left-part p{
-font-family: var(--ff-secondary);
+.contact-us p{
+font-family: var(--ff-primary);
 font-weight: 400;
-font-size: 22px;
-letter-spacing: 0.40px;
+font-size: 25px;
+letter-spacing: 0.4px;
 color: var(--c-semi-grey);
-padding-bottom: 20px;
-}
-/* .contact-us .contact-us-left-part  */
-.contact-us-form .form-wrap label{
-color: var(--c-semi-grey);
-padding-bottom: 8px;
-padding-left: 10px;
-font-size: 20px;
-font-weight: 500;
 }
 /* .contact-us .contact-us-left-part  */
 .contact-us-form .form-wrap input,.contact-us-form .form-wrap textarea{
-font-size: 13px;
+font-size: 14px;
 border: 2px solid var(--c-grey-100);
 padding: 12px 14px;
-margin-bottom: 10px;
+margin-bottom: 12px;
 font-family: var(--ff-secondary);
 }
 /* .contact-us .contact-us-left-part */
 .contact-us-form .form-wrap textarea{
 height: 200px;
 }
-/* .contact-us .contact-us-left-part  */
 .contact-us-form .form-btn input{
 width: 100%;
 }
@@ -153,48 +187,57 @@ color: var(--c-primary-text);
 }
 .contact-us  .contact-us-right-part .contact-us-map iframe{
 width: 100%;
-height: 281px;
+height: 435px;
 border: 1px solid var(--c-light-grey);
 }
 /* ***********Contact Us Start********** */
 
 /* ***********Request Quote Start********** */
-.request-quote .custom-heading h3 {
+.request-quote .request-quote-wrap .custom-heading{
+  padding-bottom: 50px;
+}
+.request-quote .request-quote-wrap .custom-heading h3 {
 font-size: 30px;
 padding-bottom: 20px;
+margin-top: 20px;
 }
-.request-quote .custom-heading p{
-font-family: var(--ff-secondary);
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-color: var(--c-semi-grey);
-padding-bottom: 40px;
+.request-quote .request-quote-wrap .custom-heading p{
+  font-family: var(--ff-secondary);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: var(--c-semi-grey);
 }
-.request-quote .contact-us-form .form-wrap .form-check-input{
-padding: 5px;
-margin-top: 6px;
+.request-quote .request-quote-wrap .card{
+  box-shadow: 0 2px 6px 0 var(--c-light-grey), 0 3px 15px 0 var(--c-light-grey);
+  padding: 35px;
 }
-.request-quote .contact-us-form .form-wrap .form-check-label{
-padding-bottom: 8px;
+.request-quote .request-quote-wrap .contact-us-form .form-wrap .form-check-input{
+padding: 6px;
+}
+.request-quote .request-quote-wrap .card .contact-us-form .form-wrap label{
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 21px;
+  color: var(--c-semi-grey);
+  padding-bottom: 15px;
+  padding-left: 10px;
+  letter-spacing: 0.4px;
+}
+.request-quote .request-quote-wrap .card .contact-us-form .form-wrap .form-check-label{
+padding-bottom: 12px;
 padding-left: 5px;
 font-size: 18px;
 font-weight: 400;
 letter-spacing: 0.4px;
 }
-.request-quote .contact-us-form .form-wrap .form-input-text{
+.request-quote .request-quote-wrap .contact-us-form .form-wrap .form-input-text{
 color: var(--c-semi-grey);
-padding-bottom: 5px;
+padding-bottom: 12px;
 padding-left: 10px;
-font-size: 17px;
+font-size: 19px;
 font-weight: 400;
-}
-.request-bottom{
-padding: 15px 0;
-background-color: var(--c-light-grey);
-}
-.request-bottom .request-bottom-icon a span i{
-gap: 0 15px;
 }
 /* ***********Request Quote End********** */
 
@@ -285,7 +328,6 @@ gap: 0 15px;
 /* Contact us Start */
 .contact-us .custom-heading,.contact-us .contact-us-text {text-align: center;padding-bottom: 0px;}
 .contact-us .contact-us-left-part p {font-size: 20px;}
-.contact-us-form .form-wrap label {padding-bottom: 6px;font-size: 18px;}
 .contact-us-form .form-wrap input, .contact-us-form .form-wrap textarea {font-size: 12px;margin-bottom: 8px;}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 38px;line-height: 37px;padding-bottom: 25px;}
 .contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 18px;line-height: 22px;padding-bottom: 20px;}
@@ -317,7 +359,6 @@ gap: 0 15px;
 .get-in-touch .get-in-map-heading h5 {font-size: 17px;padding-bottom: 24px;}  
 /* Contact us Start */
 .contact-us .contact-us-left-part p {font-size: 17px;padding-bottom: 15px;}
-.contact-us-form .form-wrap label {padding-bottom: 4px;font-size: 16px;padding-left: 6px;}
 .contact-us-form .form-wrap input, .contact-us-form .form-wrap textarea {margin-bottom: 5px;padding: 10px;border: 1px solid var(--c-grey-100);}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 30px;line-height: 28px;padding-bottom: 15px;}
 .contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 16px;line-height: 19px;padding-bottom: 13px;}
@@ -352,7 +393,6 @@ gap: 0 15px;
 /* Contact us start */
 .contact-us .contact-us-left-part .custom-heading h3 {padding-bottom: 6px;}
 .contact-us .contact-us-left-part p {font-size: 13px;padding-bottom: 8px;}
-.contact-us-form .form-wrap label {padding-bottom: 0px;font-size: 13px;}
 .contact-us-form .form-wrap input, .contact-us-form .form-wrap textarea {padding: 7px;}
 .contact-us .contact-us-right-part .custom-heading h3 {font-size: 24px;line-height: 24px;padding-bottom: 6px;}
 .contact-us .contact-us-right-part .contact-us-text p a, .contact-us .contact-us-right-part .contact-us-text p {font-size: 13px;line-height: 15px;padding-bottom: 10px;}
