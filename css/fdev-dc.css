@@ -206,6 +206,9 @@
 .details .terms-condition-wrap {
   text-align: center;
 }
+.details .custom-heading h3{
+  padding-bottom: 20px;
+}
 /*----------details-end------------------*/
 
 
@@ -232,9 +235,10 @@
   .our-product .owl-carousel .owl-item .img-wrap img {height: 400px;object-fit: cover;}
   .our-product .owl-dots{padding-top: 20px;}
   .our-product .owl-nav{display: none;}
-
+  .our-product .product-owl-wrap {padding: 0 3%;}
   /*------our-product-end------*/
   /*--------custom-gallery-start---------*/
+  .custom-gallery .custom-pad{padding: 110px 0;}
   .light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child img {height: 305px;object-fit: cover;}
   /*--------custom-gallery-end---------*/
 }
@@ -276,6 +280,7 @@
   .our-product{padding: 80px 0 60px 0;}
   /*our-product-end*/
   /*-----custom-gallery-start---------*/
+  .custom-gallery .custom-heading h3 {padding-bottom: 60px;}
   .light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child img {height: 222px;object-fit: cover;}
   /*-----custom-gallery-start---------*/
   }
@@ -314,7 +319,10 @@
   /*iron-gallery-start*/
   .iron-gallery-img img {padding: 10px;}
   /*iron-gallery-end*/
-    
+ /*---------details-start---------*/
+  .details .custom-heading h3{padding-bottom: 15px;}
+  .details ul {padding-left: 20px;}
+ /*---------details-start---------*/
 }
 
 @media only screen and (max-width:767.98px){
@@ -354,6 +362,10 @@
     .custom-gallery .custom-heading h3 {padding-bottom: 20px;}
     
     /*-----custom-gallery-end------*/
+     /*---------details-start---------*/
+  .details ul {padding-left: 15px;}
+  .details .custom-heading h3{padding-bottom: 10px;}
+ /*---------details-start---------*/
 
 }
 
