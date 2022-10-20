@@ -110,9 +110,12 @@ border: 2px solid var(--c-primary-text);
 }
 .contact-card .contact-card-wrap .card-left-img{
   position: absolute;
-  top: 7px;
-  left: 4px;
-  border: 1px solid var(--ff-primary);
+  top: -29px;
+  left: -23px;
+  border: 1px solid var(--c-primary-text);
+  height: 60px;
+width: 60px;
+line-height: 52px;
 }
 .contact-card .contact-card-wrap .card-left-img img{
   height: 40px;
@@ -136,15 +139,26 @@ line-height: 28px;
 .contact-card .contact-card-wrap .card .card-text a:hover{
   color: var(--c-primary-text);
 }
+.contact-us .contact-us-form p{
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 27px;
+  letter-spacing: 0.4px;
+  color: var(--c-semi-grey);
+  padding-bottom: 40px;
+}
+.contact-us .contact-us-right-part {
+  padding-top: 58px;
+}
 /* ++++++ */
 .contact-us .custom-heading{
   padding-bottom: 80px;
 }
 .contact-us .custom-heading h3{
-padding-bottom: 15px;
+padding-bottom: 0px;
 margin-top: 10px;
 }
-.contact-us p{
+.contact-us .custom-heading p{
 font-family: var(--ff-primary);
 font-weight: 400;
 font-size: 25px;
@@ -187,7 +201,7 @@ color: var(--c-primary-text);
 }
 .contact-us  .contact-us-right-part .contact-us-map iframe{
 width: 100%;
-height: 435px;
+height: 446px;
 border: 1px solid var(--c-light-grey);
 }
 /* ***********Contact Us Start********** */
@@ -216,11 +230,11 @@ margin-top: 20px;
 padding: 6px;
 }
 .request-quote .request-quote-wrap .card .contact-us-form .form-wrap label{
+  color: var(--c-secondary-text);
   font-family: var(--ff-primary);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 22px;
   line-height: 21px;
-  color: var(--c-semi-grey);
   padding-bottom: 15px;
   padding-left: 10px;
   letter-spacing: 0.4px;
@@ -233,7 +247,7 @@ font-weight: 400;
 letter-spacing: 0.4px;
 }
 .request-quote .request-quote-wrap .contact-us-form .form-wrap .form-input-text{
-color: var(--c-semi-grey);
+color: var(--c-secondary-text);
 padding-bottom: 12px;
 padding-left: 10px;
 font-size: 19px;
