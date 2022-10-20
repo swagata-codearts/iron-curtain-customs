@@ -412,7 +412,19 @@ display: inline-block;
 background: var(--c-light-grey);
 margin: 0 12px;
 }
-.galil-gallery {margin-top: 30px;}
+.galil-gallery {
+  margin-top: 30px;
+}
+.galil-gallery-wrap img{
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+.galil-gallery-wrap img:hover {
+  transform: scale(1.05);
+}
+.galil-gallery-wrap {
+  overflow: hidden;
+}
 /*Galil-47-inner-end*/
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
@@ -482,6 +494,7 @@ margin: 0 12px;
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 500px;}
 .details-content {margin-top: 20px;}
+.details-content .custom-paragraph {line-height: 34px;}
 /*Galil-47-inner-end*/
 }
 
@@ -763,6 +776,7 @@ margin: 0 12px;
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 390px;}
+.galil-believing .custom-paragraph {padding: 0 0 20px 0;}
 /*Galil-47-inner-end*/
 }
 /*Responsive-end*/
