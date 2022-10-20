@@ -494,6 +494,7 @@ margin: 0 12px;
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 500px;}
 .details-content {margin-top: 20px;}
+.details-content .custom-paragraph {line-height: 34px;}
 /*Galil-47-inner-end*/
 }
 
