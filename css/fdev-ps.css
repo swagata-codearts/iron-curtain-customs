@@ -177,7 +177,7 @@ font-family: var(--ff-secondary);
 .contact-us-form .form-wrap textarea{
 height: 200px;
 }
-.contact-us-form .form-btn input{
+.contact-us .contact-us-form .form-btn input{
 width: 100%;
 }
 .contact-us .contact-us-right-part .custom-heading h3{
