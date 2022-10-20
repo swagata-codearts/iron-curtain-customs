@@ -207,7 +207,7 @@ margin-top: 45px;
 display: inline-block;
 }
 .footer-3-content .footer-img-2 {
-  display: none;
+display: none;
 }
 /*footer-end*/
 /*About-ICC-inner-start*/
@@ -349,68 +349,68 @@ padding-top: 200px;
 /*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 .details-img {
-  object-fit: cover;
+object-fit: cover;
 }
 .details-img img {
-  width: 100%;
+width: 100%;
 }
 .details-content {
-  margin-top: 30px;
+margin-top: 30px;
 }
 .galil-believing .custom-paragraph {
-  padding: 0 0 30px 0;
-  color: var(--c-light-grey);
+padding: 0 0 30px 0;
+color: var(--c-light-grey);
 }
 .details-img .custom-paragraph {
-  text-align: center;
-  margin-top: 0px;
-  font-size: 18px;
-  font-weight: 600;
-  background-color: var(--c-primary-text);
-  padding: 10px;
-  color: var(--c-white);
-  text-transform: uppercase;
+text-align: center;
+margin-top: 0px;
+font-size: 18px;
+font-weight: 600;
+background-color: var(--c-primary-text);
+padding: 10px;
+color: var(--c-white);
+text-transform: uppercase;
 }
 .galil-details.custom-pad .custom-heading h5 {
-  line-height: 0;
+line-height: 0;
 }
 .galil-believing.custom-pad .custom-button:hover {
-  border: 2px solid var(--c-white);
+border: 2px solid var(--c-white);
 }
 .galil-believing.custom-pad {
-  background-image: url(../images/product-bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  text-align: center;
+background-image: url(../images/product-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+text-align: center;
 }
 .galil-47-gallery {
-  object-fit: cover;
-  overflow: hidden;
-  padding: 25px 10px 0px 10px;
-  height: 600px;
+object-fit: cover;
+overflow: hidden;
+padding: 25px 0px 0px 0px;
+height: 600px;
 }
 .galil-47-gallery img {
-  width: 100%;
+width: 100%;
 }
 .galil-gallery.custom-pad {
-  background-color: #f9f9f9;
+background-color: #f9f9f9;
 }
 .galil-gallery .owl-dots {
-  text-align: center;
-  margin-top: 20px;
+text-align: center;
+margin-top: 20px;
 }
 .galil-gallery .owl-dots button.owl-dot.active {
-  background-color: var(--c-primary-text);
+background-color: var(--c-primary-text);
 }
 .galil-gallery .owl-dots button.owl-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  display: inline-block;
-  background: var(--c-light-grey);
-  margin: 0 12px;
+width: 6px;
+height: 6px;
+border-radius: 50%;
+display: inline-block;
+background: var(--c-light-grey);
+margin: 0 12px;
 }
 .galil-gallery {margin-top: 30px;}
 /*Galil-47-inner-end*/
