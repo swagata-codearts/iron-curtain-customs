@@ -363,9 +363,13 @@ padding-top: 200px;
 }
 .details-img .custom-paragraph {
   text-align: center;
-  margin-top: 6px;
+  margin-top: 0px;
   font-size: 18px;
   font-weight: 600;
+  background-color: var(--c-primary-text);
+  padding: 10px;
+  color: var(--c-white);
+  text-transform: uppercase;
 }
 .galil-details.custom-pad .custom-heading h5 {
   line-height: 0;
@@ -555,7 +559,6 @@ padding-top: 200px;
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 400px;}
 .details-content {margin-top: 15px;}
-.details-img .custom-paragraph {margin-top: 10px;}
 /*Galil-47-inner-end*/
 }
 
@@ -599,7 +602,6 @@ padding-top: 200px;
 .galil-47-gallery {height: 350px;}
 .details-content {margin-top: 10px;}
 .details-img .custom-paragraph {font-size: 14px;}
-.details-img .custom-paragraph {margin-top: 10px;}
 /*Galil-47-inner-end*/
 }
 
@@ -677,7 +679,6 @@ padding-top: 200px;
 .galil-47-gallery {height: 345px;}
 .details-content {margin-top: 10px;}
 .details-img .custom-paragraph {font-size: 14px;}
-.details-img .custom-paragraph {margin-top: 10px;}
 .galil-details.custom-pad {text-align: center;}
 .galil-details.custom-pad .custom-heading {margin-top: 30px;}
 .galil-47-gallery {padding: 25px 0px 0px 0px;}
