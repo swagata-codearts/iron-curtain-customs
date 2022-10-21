@@ -1,3 +1,4 @@
+/* Inner Product Page (fdev-sb 21-09-2022) */
 .inner-products {
   background-color: var(--c-grey-100);
 }
@@ -78,7 +79,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+/* Inner Product Page (fdev-sb 21-09-2022) */
 
 @media (min-width: 1920px) and (max-width: 2500px){
 
