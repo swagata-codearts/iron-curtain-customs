@@ -523,7 +523,7 @@ padding-right: 100px;
 }
 .saiga-convertion-1 {
 margin-top: 40px;
-border: 2px solid var(--c-primary-text);
+border: 3px dotted var(--c-primary-text);
 border-radius: 4px;
 padding: 10px;
 cursor: pointer;
@@ -532,16 +532,16 @@ transform: scale(1);
 }
 .saiga-convertion-1:hover {
 background-color: var(--c-primary-text);
-border: 2px solid var(--c-primary-text);
+border: 3px dotted var(--c-primary-text);
 color: var(--c-white);
-transform: scale(1.04);
+transform: scale(1.02);
 }
 .saiga-convertion-1:hover .custom-paragraph {
 color: var(--c-white);
 }
 .saiga-convertion-2 {
 margin-top: 40px;
-border: 2px solid var(--c-primary-text);
+border: 3px dotted var(--c-primary-text);
 border-radius: 4px;
 padding: 10px;
 cursor: pointer;
@@ -550,9 +550,9 @@ transform: scale(1);
 }
 .saiga-convertion-2:hover {
 background-color: var(--c-primary-text);
-border: 2px solid var(--c-primary-text);
+border: 3px dotted var(--c-primary-text);
 color: var(--c-white);
-transform: scale(1.04);
+transform: scale(1.02);
 }
 .saiga-convertion-2:hover .custom-paragraph {
 color: var(--c-white);
@@ -623,13 +623,13 @@ font-weight: 500;
 color: var(--c-secondary-text);
 }
 .general-services-list-1 {
-border: 2px solid var(--c-primary-text);
+border: 3px dotted var(--c-primary-text);
 border-radius: 4px;
 padding: 10px;
 margin-top: 40px;
 }
 .general-services-list-2 {
-border: 2px solid var(--c-primary-text);
+border: 3px dotted var(--c-primary-text);
 border-radius: 4px;
 padding: 10px;
 margin-top: 40px;
