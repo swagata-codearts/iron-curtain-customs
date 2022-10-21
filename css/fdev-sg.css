@@ -428,39 +428,272 @@ overflow: hidden;
 /*Galil-47-inner-end*/
 /*services-inner-start*/
 .services-main-logo {
-  background-color: var(--c-secondary-text);
-  text-align: center;
+background-color: var(--c-secondary-text);
+text-align: center;
 }
 .list-1 {
-  display: inline-block;
-  width: 49%;
+display: inline-block;
+width: 49%;
+}
+.list-1 li {
+padding: 10px 0 10px 0;
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 500;
+color: var(--c-grey-100);
 }
 .price-list {
-  width: 49%;
-  display: inline-block;
-  text-align: end;
+width: 49%;
+display: inline-block;
+text-align: end;
+}
+.price-list li {
+padding: 10px 0 10px 0;
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 600;
+color: var(--c-grey-100);
+}
+.ak-parts {
+background-image: url(../images/stats-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+color:#fff;
+}
+.general-services {
+background-color: #f9f9f9;
+}
+.saiga-convertion.custom-pad {
+background-color: #f9f9f9;
+}
+.other-platform-services {
+background-image: url(../images/stats-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+color:#fff;
+}
+.general-information {
+background-color: #f9f9f9;
+}
+.area-work {
+background-image: url(../images/stats-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+color:#fff;
+}
+.quote {
+background-color: #f9f9f9;
+}
+.saiga-convertion .custom-heading {
+text-align: center;
+}
+.saiga-convertion-1 {
+margin-top: 40px;
+}
+.saiga-convertion-2 {
+margin-top: 40px;
+}
+.saiga-convertion-1 ul li {
+display: inline-block;
+width: 49%;
+}
+.saiga-convertion-1 ul li h3 {
+text-align: end;
+}
+.saiga-convertion-2 ul li {
+display: inline-block;
+width: 49%;
+}
+.saiga-convertion-2 ul li h3 {
+text-align: end;
+}
+.saiga-convertion-1 .custom-paragraph {
+margin-top: 20px;
+padding-right: 100px;
+}
+.saiga-convertion-2 .custom-paragraph {
+margin-top: 20px;
+padding-right: 100px;
+}
+.saiga-convertion-1 {
+margin-top: 40px;
+border: 2px solid var(--c-primary-text);
+border-radius: 4px;
+padding: 10px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+transform: scale(1);
+}
+.saiga-convertion-1:hover {
+background-color: var(--c-primary-text);
+border: 2px solid var(--c-primary-text);
+color: var(--c-white);
+transform: scale(1.04);
+}
+.saiga-convertion-1:hover .custom-paragraph {
+color: var(--c-white);
+}
+.saiga-convertion-2 {
+margin-top: 40px;
+border: 2px solid var(--c-primary-text);
+border-radius: 4px;
+padding: 10px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+transform: scale(1);
+}
+.saiga-convertion-2:hover {
+background-color: var(--c-primary-text);
+border: 2px solid var(--c-primary-text);
+color: var(--c-white);
+transform: scale(1.04);
+}
+.saiga-convertion-2:hover .custom-paragraph {
+color: var(--c-white);
 }
 .ak-parts-list-1 {
-  border: 1px solid #000;
-  border-radius: 4px;
-  padding: 10px;
+margin-top: 40px;
 }
 .ak-parts-list-2 {
-  border: 1px solid #000;
-  border-radius: 4px;
-  padding: 10px;
+margin-top: 40px;
+}
+.ak-parts .custom-heading {
+text-align: center;
+}
+.ak-parts-list-1 .list-1 li {
+border-bottom: 2px dotted var(--c-grey-100);
+}
+.ak-parts-list-1 .price-list li {
+border-bottom: 2px dotted var(--c-grey-100);
+}
+.ak-parts-list-2 .list-1 li {
+border-bottom: 2px dotted var(--c-grey-100);
+}
+.ak-parts-list-2 .price-list li {
+border-bottom: 2px dotted var(--c-grey-100);
+}
+.general-services-list-1 .list-1 {
+width: 89%;
+display: inline-block;
+}
+.general-services-list-1 .price-list {
+width: 10%;
+display: inline-block;
+}
+.general-services-list-2 .list-1 {
+width: 89%;
+display: inline-block;
+}
+.general-services-list-2 .price-list {
+width: 10%;
+display: inline-block;
+}
+.general-services-list-1 .list-1 li {
+padding: 10px 0 10px 0;
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 500;
+color: var(--c-secondary-text);
+}
+.general-services-list-1 .price-list li {
+padding: 10px 0 10px 0;
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 500;
+color: var(--c-secondary-text);
+}
+.general-services-list-2 .list-1 li {
+padding: 10px 0 10px 0;
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 500;
+color: var(--c-secondary-text);
+}
+.general-services-list-2 .price-list li {
+padding: 10px 0 10px 0;
+font-family: var(--ff-secondary);
+font-size: 18px;
+font-weight: 500;
+color: var(--c-secondary-text);
 }
 .general-services-list-1 {
-  border: 1px solid #000;
-  border-radius: 4px;
-  padding: 10px;
+border: 2px solid var(--c-primary-text);
+border-radius: 4px;
+padding: 10px;
+margin-top: 40px;
 }
 .general-services-list-2 {
-  border: 1px solid #000;
-  border-radius: 4px;
-  padding: 10px;
+border: 2px solid var(--c-primary-text);
+border-radius: 4px;
+padding: 10px;
+margin-top: 40px;
 }
-
+.general-services .custom-heading {
+text-align: center;
+}
+.other-platform-services .custom-paragraph {
+color: var(--c-white);
+margin-top: 20px;
+}
+.other-platform-services-1 {
+margin-top: 40px;
+text-align: center;
+background-color: var(--c-primary-text);
+padding: 20px;
+border-radius: 4px;
+min-height: 210px;
+}
+.other-platform-services-2 {
+margin-top: 40px;
+text-align: center;
+background-color: var(--c-primary-text);
+padding: 20px;
+border-radius: 4px;
+min-height: 210px;
+}
+.other-platform-services .custom-heading {
+text-align: center;
+}
+.other-platform-services-1 h4 {
+border-bottom: 2px solid var(--c-white);
+display: inline-block;
+}
+.other-platform-services-2 h4 {
+border-bottom: 2px solid var(--c-white);
+display: inline-block;
+}
+.general-information-content .custom-heading {
+text-align: center;
+}
+.general-information-content .custom-paragraph {
+text-align: center;
+margin-top:30px;
+}
+.area-work .custom-heading {
+text-align: center;
+}
+.area-work .custom-paragraph {
+text-align: center;
+margin-top:30px;
+color: var(--c-light-grey);
+}
+.quote-content {
+text-align: center;
+}
+.quote-button {
+text-decoration: none;
+color: var(--c-primary-text);
+font-weight: 500;
+}
+.request-quote-button {
+margin-top: 30px;
+}
 /*services-inner-end*/
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
