@@ -647,7 +647,7 @@ text-align: center;
 background-color: var(--c-primary-text);
 padding: 20px;
 border-radius: 4px;
-min-height: 210px;
+min-height: 215px;
 }
 .other-platform-services-2 {
 margin-top: 40px;
@@ -655,18 +655,22 @@ text-align: center;
 background-color: var(--c-primary-text);
 padding: 20px;
 border-radius: 4px;
-min-height: 210px;
+min-height: 215px;
 }
 .other-platform-services .custom-heading {
 text-align: center;
 }
 .other-platform-services-1 h4 {
-border-bottom: 2px solid var(--c-white);
-display: inline-block;
+  border-bottom: 3px dotted var(--c-white);
+  display: inline-block;
+  width: 100%;
+  padding: 0 0 10px 0;
 }
 .other-platform-services-2 h4 {
-border-bottom: 2px solid var(--c-white);
-display: inline-block;
+  border-bottom: 3px dotted var(--c-white);
+  display: inline-block;
+  width: 100%;
+  padding: 0 0 10px 0;
 }
 .general-information-content .custom-heading {
 text-align: center;
