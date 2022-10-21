@@ -188,7 +188,7 @@ padding-bottom: 40px;
 /*custom-heading-end*/
 /*Inner-banner-start*/
 .custom-inner-banner {
-background-image: url(../images/inner-banner.jpg);
+/*background-image: url(../images/inner-banner.jpg);*/
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
