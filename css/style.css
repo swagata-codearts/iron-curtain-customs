@@ -263,9 +263,265 @@ line-height: 37px;
 
 
 /* =+=+=+=+=+=+=+=+=+= HOMEPAGE =+=+=+=+=+=+=+=+=+= */
+
+/* Counter Section (fdev-ps 21-10-2022)  */
+.counter-section{
+    background-image: url(../images/stats-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+    .counter-section .counter-bottom-img{
+    position: absolute;
+    bottom: -115px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .counter-section .counter-wrap{
+    text-align: center;
+    display: inline-flex;
+    }
+    .counter-section .count-title{
+    font-family: var(--ff-primary) ;
+    font-size:25px ;
+    font-weight: 700;
+    color: var(--c-white);
+    }
+    .counter-section .count-number-and-unit span,.counter-section .count-number-and-unit{
+    font-family: var(--ff-primary);
+    font-weight: 800;
+    color:  var(--c-primary-text);
+    font-size: 60px;
+    letter-spacing: 0.40px;
+    }
+    .counter-section .counter-box {
+    padding: 21px 0px;
+    margin-bottom: 30px
+    }
+    .counter-section .counter-col:not(:last-child) .counter-box {
+    border-right: 1px solid var(--c-grey);
+    }
+    /* Counter Section (fdev-ps 21-10-2022)  */
+    /* Get In Touch Section (fdev-ps 21-10-2022)  */
+    .get-in-touch {
+    padding-bottom: 89px;
+    padding-top: 218px;
+    }
+    .get-in-touch .custom-heading{
+    margin-bottom: 56px;
+    }
+    .get-in-touch .get-in-heading h4{
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.40px;
+    color: var(--c-secondary-text);
+    padding-bottom: 30px;
+    }
+    .get-in-touch .get-in-text p,.get-in-touch .get-in-text p a{
+    font-family: var(--ff-secondary);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: var(--c-semi-grey);
+    padding-bottom: 13px;
+    }
+    .get-in-touch .get-in-text p a:hover{
+    color:var(--c-primary-text);
+    }
+    .get-in-touch .get-in-text{
+    padding-bottom: 20px;
+    }
+    .get-in-touch .get-in-map-heading h5 {
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.40px;
+    color: var(--c-primary-text);
+    padding-bottom: 58px;
+    }
+    .get-in-touch .get-in-left .get-in-map iframe{
+    width: 552px;
+    height: 315px;
+    }
+    .get-in-touch .get-in-right .get-in-form .form-wrap input,.get-in-touch .get-in-right .get-in-form .form-wrap textarea{    
+    font-size: 13px;
+    font-family: var(--ff-secondary);
+    border: 2px solid var(--c-grey-100);
+    padding: 15px 22px;
+    margin-bottom: 19px;
+    }
+    .get-in-touch .get-in-right .get-in-form textarea{
+    height: 227px;
+    }
+    .get-in-touch .get-in-right .get-in-form .form-btn input {
+    width: 100%;
+    }
+    .get-in-touch .get-in-right .get-in-form .form-btn input:hover{
+    border: 2px solid var(--c-primary-text);
+    }
+/* Get In Touch Section (fdev-ps 21-10-2022)  */
+
 /* =+=+=+=+=+=+=+=+=+= HOMEPAGE =+=+=+=+=+=+=+=+=+= */
 
 /* =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= INNER PAGES START =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+= */
+/* ***********Contact Us Start********** */
+.contact-card{
+    background-color: var(--c-grey-100);
+    }
+    .contact-card .contact-card-wrap .card{
+    text-align: center;
+    width: 350px;
+    height: 160px;
+    box-shadow:  8px 8px 0 var(--c-light-grey);
+    position: relative;
+    }
+    .contact-card .contact-card-wrap .card-left-img{
+    position: absolute;
+    top: -29px;
+    left: -23px;
+    border: 1px solid var(--c-primary-text);
+    height: 60px;
+    width: 60px;
+    line-height: 52px;
+    }
+    .contact-card .contact-card-wrap .card-left-img img{
+    height: 40px;
+    }
+    .contact-card .contact-card-wrap .card .card-title{
+    font-family: var(--ff-primary);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--c-primary-text);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    line-height: 27px;
+    }
+    .contact-card .contact-card-wrap .card .card-text a,.contact-card .contact-card-wrap .card .card-text{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--c-semi-grey);
+    line-height: 28px;
+    }
+    .contact-card .contact-card-wrap .card .card-text a:hover{
+    color: var(--c-primary-text);
+    }
+    .contact-us .contact-us-form p{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: var(--c-semi-grey);
+    padding-bottom: 40px;
+    }
+    .contact-us .contact-us-right-part {
+    padding-top: 58px;
+    }
+    .contact-us .custom-heading{
+    padding-bottom: 70px;
+    }
+    .contact-us .custom-heading h3{
+    padding-bottom: 0px;
+    margin-top: 10px;
+    }
+    .contact-us .custom-heading p{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0.4px;
+    color: var(--c-semi-grey);
+    }
+    .contact-us-form .form-wrap input,.contact-us-form .form-wrap textarea{
+    font-size: 14px;
+    border: 2px solid var(--c-grey-100);
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    font-family: var(--ff-secondary);
+    }
+    .contact-us-form .form-wrap textarea{
+    height: 200px;
+    }
+    .contact-us .contact-us-form .form-btn input{
+    width: 100%;
+    }
+    .contact-us .contact-us-right-part .custom-heading h3{
+    font-size: 44px;
+    line-height: 45px;
+    padding-bottom: 32px;
+    }
+    .contact-us .contact-us-right-part .contact-us-text{
+    padding-bottom: 40px;
+    }
+    .contact-us .contact-us-right-part .contact-us-text p a,.contact-us .contact-us-right-part .contact-us-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.40px;
+    color: var(--c-semi-grey);
+    padding-bottom: 26px;
+    }
+    .contact-us .contact-us-right-part .contact-us-text p a:hover{
+    color: var(--c-primary-text);
+    }
+    .contact-us  .contact-us-right-part .contact-us-map iframe{
+    width: 100%;
+    height: 438px;
+    border: 1px solid var(--c-light-grey);
+    }
+    /* ***********Contact Us Start********** */
+    /* ***********Request Quote Start********** */
+    .request-quote .request-quote-wrap .custom-heading{
+    padding-bottom: 50px;
+    }
+    .request-quote .request-quote-wrap .custom-heading h3 {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    }
+    .request-quote .request-quote-wrap .custom-heading p{
+    font-family: var(--ff-secondary);
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--c-semi-grey);
+    }
+    .request-quote .request-quote-wrap .card{
+    box-shadow: 0 2px 6px 0 var(--c-light-grey), 0 3px 15px 0 var(--c-light-grey);
+    padding: 35px;
+    }
+    .request-quote .request-quote-wrap .contact-us-form .form-wrap .form-check-input{
+    padding: 7px;
+    margin-top: 6px;
+    }
+    .request-quote .request-quote-wrap .card .contact-us-form .form-wrap label{
+    color: var(--c-secondary-text);
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+    letter-spacing: 0.4px;
+    }
+    .request-quote .request-quote-wrap .card .contact-us-form .form-wrap .form-check-label{
+    color: var(--c-secondary-text);
+    padding-bottom: 12px;
+    padding-left: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    }
+    .request-quote .request-quote-wrap .contact-us-form .form-wrap .form-input-text{
+    color: var(--c-secondary-text);
+    padding-bottom: 12px;
+    font-size: 19px;
+    font-weight: 400;
+    }
+    /* ***********Request Quote End********** */
+    
 
 /* Inner Product Page (fdev-sb 21-09-2022) */
 .inner-products {
