@@ -197,6 +197,7 @@
   border: 5px solid var(--c-primary-text);
   margin-bottom: 20px;
   position: relative;
+  box-shadow: 1px 1px 8px 3px var(--c-light-grey);
 }
 .iron-gallery .iron-gallery-img-wrap .iron-gallery-img-wrap-overlay{
   position: absolute;
@@ -219,32 +220,37 @@
 
 /*----------details-start------------------*/
 
+.details {
+  padding: 100px 0 60px 0;
+}
+
 .details .custom-heading h5{
   font-family: var(--ff-secondary);
   font-size: 16px;
   font-weight: 700;
-  color: var(--c-semi-grey);
+  color: var(--c-primary-text);
   padding: 10px 0;
 }
 .details ul {
-  padding-left: 25px;
+  padding-left: 35px;
 }
 .details ul li {
   list-style: disclosure-closed;
-  padding-left: 20px;
-  color: var(--c-semi-grey);
+  padding-left: 10px;
+  color: var(--c-primary-text);
 }
 .details .terms-condition-wrap {
   text-align: center;
 }
 .details .custom-heading h3{
   padding-bottom: 20px;
+  margin-top: 15px;
 }
 
 .details .details-return::after {
   content: "";
   position: absolute;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(255, 174, 174);
   width: 1200px;
   height: 1px;
 }
@@ -252,7 +258,7 @@
 .details .details-shipping::after {
   content: "";
   position: absolute;
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(255, 174, 174);
   width: 1200px;
   height: 1px;
 }
@@ -260,8 +266,50 @@
 .details .para-underline {
   padding-bottom: 30px;
 }
+
+.details .custom-heading h4 {
+  font-weight: 400;
+  color: var(--c-primary-text);
+  font-size: 19px;
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+}
+
+.details .custom-heading h4 span {
+  padding-right: 10px;
+}
+
+.details .custom-heading h4 span img {
+  vertical-align: revert;
+}
+
+.details-return {
+  padding-bottom: 60px;
+}
+
+.details-shipping {
+  padding-bottom: 60px;
+}
 /*----------details-end------------------*/
 
+/*----------terms-condition-start------------*/
+
+.terms-condition .custom-heading h3{
+  padding-bottom: 30px;
+}
+
+.terms-condition {
+  text-align: center;
+  background-color: var(--c-grey-100);
+  padding: 0 0 100px 0;
+}
+
+.terms-condition .custom-paragraph{
+  font-weight: 700;
+}
+
+
+/*----------terms-condition-end------------*/
 
 
 
