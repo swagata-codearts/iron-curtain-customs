@@ -433,7 +433,7 @@ text-align: center;
 }
 .list-1 {
 display: inline-block;
-width: 49%;
+width: 89%;
 }
 .list-1 li {
 padding: 10px 0 10px 0;
@@ -443,7 +443,7 @@ font-weight: 500;
 color: var(--c-grey-100);
 }
 .price-list {
-width: 49%;
+width: 10%;
 display: inline-block;
 text-align: end;
 }
@@ -459,8 +459,6 @@ background-image: url(../images/stats-bg.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
-color:#fff;
 background-attachment: fixed;
 }
 .general-services {
@@ -474,8 +472,6 @@ background-image: url(../images/stats-bg.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
-color:#fff;
 background-attachment: fixed;
 }
 .general-information {
@@ -486,8 +482,6 @@ background-image: url(../images/stats-bg.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-position: relative;
-color:#fff;
 background-attachment: fixed;
 }
 .quote {
@@ -606,7 +600,7 @@ color: var(--c-secondary-text);
 border-bottom: 2px dashed var(--c-light-grey);
 }
 .general-services-list-1 .list-1 li:last-child {
-  border:none;
+border:none;
 }
 .general-services-list-1 .price-list li {
 padding: 10px 0 10px 0;
@@ -617,7 +611,7 @@ color: var(--c-secondary-text);
 border-bottom: 2px dashed var(--c-light-grey);
 }
 .general-services-list-1 .price-list li:last-child {
-  border:none;
+border:none;
 }
 .general-services-list-2 .list-1 li {
 padding: 10px 0 10px 0;
@@ -628,7 +622,7 @@ color: var(--c-secondary-text);
 border-bottom: 2px dashed var(--c-light-grey);
 }
 .general-services-list-2 .list-1 li:last-child {
-  border:none;
+border:none;
 }
 .general-services-list-2 .price-list li {
 padding: 10px 0 10px 0;
@@ -639,7 +633,7 @@ color: var(--c-secondary-text);
 border-bottom: 2px dashed var(--c-light-grey);
 }
 .general-services-list-2 .price-list li:last-child {
-  border:none;
+border:none;
 }
 .general-services-list-1 {
 border: 3px dotted var(--c-primary-text);
@@ -680,16 +674,18 @@ min-height: 215px;
 text-align: center;
 }
 .other-platform-services-1 h4 {
-  border-bottom: 3px dotted var(--c-white);
-  display: inline-block;
-  width: 100%;
-  padding: 0 0 10px 0;
+border-bottom: 3px dotted var(--c-white);
+display: inline-block;
+width: 100%;
+padding: 0 0 10px 0;
+color: var(--c-white);
 }
 .other-platform-services-2 h4 {
-  border-bottom: 3px dotted var(--c-white);
-  display: inline-block;
-  width: 100%;
-  padding: 0 0 10px 0;
+border-bottom: 3px dotted var(--c-white);
+display: inline-block;
+width: 100%;
+padding: 0 0 10px 0;
+color: var(--c-white);
 }
 .general-information-content .custom-heading {
 text-align: center;
@@ -718,7 +714,7 @@ font-weight: 500;
 margin-top: 30px;
 }
 .quote-button:hover {
-  color: var(--c-secondary-text);
+color: var(--c-secondary-text);
 }
 /*services-inner-end*/
 /*Responsive-start*/
@@ -740,23 +736,14 @@ margin-top: 30px;
 @media (min-width: 1700px) and (max-width: 1800px){
 .custom-header .nav-item {margin-left: 31px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
-/*About-ICC-inner-start*/
-
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
-
-/*Galil-47-inner-end*/
 }
 
 @media (min-width: 1600px) and (max-width: 1700px){
 .custom-header .nav-item {margin-left: 21px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
-/*About-ICC-inner-start*/
-
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
-
-/*Galil-47-inner-end*/
+/*service-inner-start*/
+.service-logo img {width: 30%;}
+/*service-inner-end*/
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
@@ -783,14 +770,16 @@ margin-top: 30px;
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {width: 85%;}
 .categories-1 {height: 470px;}
 .categories-2 {height: 470px;}
-/*About-ICC-inner-start*/
-
-/*About-ICC-inner-end*/
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 500px;}
 .details-content {margin-top: 20px;}
 .details-content .custom-paragraph {line-height: 34px;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.service-logo img {width: 25%;}
+.saiga-convertion-1 {min-height: 270px;}
+.saiga-convertion-2 {min-height: 270px;}
+/*service-inner-end*/
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
@@ -827,6 +816,17 @@ margin-top: 30px;
 .galil-47-gallery {height: 450px;}
 .details-content {margin-top: 20px;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.service-logo img {width: 25%;}
+.saiga-convertion-1 {min-height: 240px;}
+.saiga-convertion-2 {min-height: 240px;}
+.list-1 li {font-size: 16px;}
+.price-list li {font-size: 16px;}
+.general-services-list-1 .list-1 li {font-size: 16px;}
+.general-services-list-1 .price-list li {font-size: 16px;}
+.general-services-list-2 .list-1 li {font-size: 16px;}
+.general-services-list-2 .price-list li {font-size: 16px;}
+/*service-inner-end*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -868,6 +868,21 @@ margin-top: 30px;
 .galil-47-gallery {height: 400px;}
 .details-content {margin-top: 15px;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.service-logo img {width: 25%;}
+.saiga-convertion-1 {min-height: 210px;}
+.saiga-convertion-2 {min-height: 210px;}
+.list-1 li {font-size: 16px;}
+.price-list li {font-size: 16px;}
+.general-services-list-1 .list-1 li {font-size: 16px;}
+.general-services-list-1 .price-list li {font-size: 16px;}
+.general-services-list-2 .list-1 li {font-size: 16px;}
+.general-services-list-2 .price-list li {font-size: 16px;}
+.saiga-convertion-1 .custom-paragraph {padding-right: 60px;}
+.saiga-convertion-2 .custom-paragraph {padding-right: 60px;}
+.other-platform-services-1 {min-height: 180px;}
+.other-platform-services-2 {min-height: 180px;}
+/*service-inner-end*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -911,6 +926,21 @@ margin-top: 30px;
 .details-content {margin-top: 10px;}
 .details-img .custom-paragraph {font-size: 14px;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.service-logo img {width: 25%;}
+.saiga-convertion-1 {min-height: 210px;}
+.saiga-convertion-2 {min-height: 210px;}
+.list-1 li {font-size: 16px;}
+.price-list li {font-size: 16px;}
+.general-services-list-1 .list-1 li {font-size: 16px;}
+.general-services-list-1 .price-list li {font-size: 16px;}
+.general-services-list-2 .list-1 li {font-size: 16px;}
+.general-services-list-2 .price-list li {font-size: 16px;}
+.saiga-convertion-1 .custom-paragraph {padding-right: 60px;}
+.saiga-convertion-2 .custom-paragraph {padding-right: 60px;}
+.other-platform-services-1 {min-height: 180px;}
+.other-platform-services-2 {min-height: 180px;}
+/*service-inner-end*/
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -1000,6 +1030,26 @@ margin-top: 30px;
 .galil-details.custom-pad .custom-heading {margin-top: 30px;}
 .galil-47-gallery {padding: 25px 0px 0px 0px;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.service-logo img {width: 35%;}
+.saiga-convertion-1 {min-height: 180px;}
+.saiga-convertion-2 {min-height: 180px;}
+.list-1 li {font-size: 16px;}
+.price-list li {font-size: 16px;}
+.general-services-list-1 .list-1 li {font-size: 16px;}
+.general-services-list-1 .price-list li {font-size: 16px;}
+.general-services-list-2 .list-1 li {font-size: 16px;}
+.general-services-list-2 .price-list li {font-size: 16px;}
+.saiga-convertion-1 .custom-paragraph {padding-right: 60px;}
+.saiga-convertion-2 .custom-paragraph {padding-right: 60px;}
+.other-platform-services-1 {min-height: 160px;}
+.other-platform-services-2 {min-height: 160px;}
+.ak-parts-list-2 {margin-top: 0px;}
+.saiga-convertion-1:hover {display: none;}
+.saiga-convertion-1:hover .custom-paragraph {display: none;}
+.saiga-convertion-2:hover {display: none;}
+.saiga-convertion-2:hover .custom-paragraph {display: none;}
+/*service-inner-end*/
 }
 
 
@@ -1036,6 +1086,9 @@ margin-top: 30px;
 /*Galil-47-inner-start*/
 .galil-47-gallery {height: 365px;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.other-platform-services-2 {min-height: 170px;}
+/*service-inner-end*/
 }
 
 @media (max-width: 575.98px){
@@ -1065,6 +1118,21 @@ margin-top: 30px;
 .galil-47-gallery {height: 610px;}
 .galil-gallery {margin-top: 20px;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.saiga-convertion-1 .custom-paragraph {margin-top: 10px;}
+.saiga-convertion-2 .custom-paragraph {margin-top: 10px;}
+.saiga-convertion-1 {margin-top: 20px;}
+.saiga-convertion-2 {margin-top: 20px;}
+.ak-parts-list-1 {margin-top: 20px;}
+.general-services-list-1 {margin-top: 20px;}
+.general-services-list-2 {margin-top: 20px;}
+.other-platform-services-1 {margin-top: 20px;}
+.other-platform-services-2 {margin-top: 20px;}
+.general-information-content .custom-paragraph {margin-top: 20px;}
+.area-work .custom-paragraph {margin-top: 20px;}
+.request-quote-button {margin-top: 20px;}
+.other-platform-services .custom-paragraph {margin-top: 10px;}
+/*service-inner-end*/
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -1089,5 +1157,27 @@ margin-top: 30px;
 .galil-47-gallery {height: 390px;}
 .galil-believing .custom-paragraph {padding: 0 0 20px 0;}
 /*Galil-47-inner-end*/
+/*service-inner-start*/
+.general-services-list-1 {padding: 5px;}
+.general-services-list-2 {padding: 5px;}
+.general-services-list-1 .list-1 li {font-size: 10px;}
+.general-services-list-2 .list-1 li {font-size: 10px;}
+.general-services-list-1 .price-list li {font-size: 10px;}
+.general-services-list-2 .price-list li {font-size: 10px;}
+.general-services-list-1 .list-1 {width: 91%;}
+.general-services-list-1 .price-list {width: 8%;}
+.general-services-list-2 .list-1 {width: 91%;}
+.general-services-list-2 .price-list {width: 8%;}
+.list-1 li {font-size: 12px;}
+.price-list li {font-size: 12px;}
+.saiga-convertion-1 ul li h3 {font-size: 20px;}
+.saiga-convertion-1 h4 {font-size: 18px;}
+.saiga-convertion-2 ul li h3 {font-size: 20px;}
+.saiga-convertion-2 h4 {font-size: 18px;}
+.saiga-convertion-1 .custom-paragraph {padding-right: 0px;}
+.saiga-convertion-2 .custom-paragraph {padding-right: 0px;}
+.other-platform-services-1 h4 {font-size: 20px;}
+.other-platform-services-2 h4 {font-size: 20px;}
+/*service-inner-end*/
 }
 /*Responsive-end*/
