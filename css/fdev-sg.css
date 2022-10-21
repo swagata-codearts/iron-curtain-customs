@@ -1,4 +1,4 @@
-/*header-start*/ 
+/*header-start(fdev-sg-21/10/2022)*/ 
 .custom-header {
 position: absolute;
 z-index: 4;
@@ -68,8 +68,8 @@ line-height: 38px;
 background-color: var(--c-primary-text);
 color: var(--c-white);
 }
-/*header-end*/ 
-/*banner-start*/
+/*header-end(fdev-sg-21/10/2022)*/ 
+/*banner-start(fdev-sg-21/10/2022)*/
 .main-banner {
 position: relative;
 z-index: 1;
@@ -111,8 +111,8 @@ background-color: var(--c-primary-text);
 }
 .banner-button .custom-button:hover {border: 2px solid var(--c-white);}
 .header-button .custom-button:hover {border: 2px solid var(--c-white);}
-/*banner-end*/
-/*footer-start*/
+/*banner-end(fdev-sg-21/10/2022)*/
+/*footer-start(fdev-sg-21/10/2022)*/
 .footer-wrap {
 background-repeat: no-repeat;
 background-position: center;
@@ -209,8 +209,9 @@ display: inline-block;
 .footer-3-content .footer-img-2 {
 display: none;
 }
-/*footer-end*/
-/*About-ICC-inner-start*/
+/*footer-end(fdev-sg-21/10/2022)*/
+
+/*About-ICC-inner-start(fdev-sg-21/10/2022)*/
 .hero-img img {
 width: 100%;
 }
@@ -346,8 +347,8 @@ transform: scale(1);
 background-color: #f9f9f9;
 padding-top: 200px;
 }
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
+/*About-ICC-inner-end(fdev-sg-21/10/2022)*/
+/*Galil-47-inner-start(fdev-sg-21/10/2022)*/
 .details-img {
 object-fit: cover;
 }
@@ -425,8 +426,8 @@ transform: scale(1.05);
 .galil-gallery-wrap {
 overflow: hidden;
 }
-/*Galil-47-inner-end*/
-/*services-inner-start*/
+/*Galil-47-inner-end(fdev-sg-21/10/2022)*/
+/*services-inner-start(fdev-sg-21/10/2022)*/
 .services-main-logo {
 background-color: var(--c-secondary-text);
 text-align: center;
@@ -716,7 +717,8 @@ margin-top: 30px;
 .quote-button:hover {
 color: var(--c-secondary-text);
 }
-/*services-inner-end*/
+/*services-inner-end(fdev-sg-21/10/2022)*/
+
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
 .custom-header .nav-item {margin-left: 51px;}
@@ -725,12 +727,6 @@ color: var(--c-secondary-text);
 @media (min-width: 1800px) and (max-width: 1850px){
 .custom-header .nav-item {margin-left: 41px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
-/*About-ICC-inner-start*/
-
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
-
-/*Galil-47-inner-end*/
 }
 
 @media (min-width: 1700px) and (max-width: 1800px){
