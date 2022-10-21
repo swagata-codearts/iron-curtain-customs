@@ -310,7 +310,7 @@
 
 
 
-
+/*--------fdev-dc-responsive-start---------*/
 
 
 @media (min-width:1366px) and (max-width:1600px){
@@ -549,3 +549,5 @@
 @media only screen and (max-width:480.98px){
 
 }
+
+/*--------fdev-dc-responsive-end---------*/
