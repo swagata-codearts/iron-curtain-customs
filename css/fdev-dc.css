@@ -230,6 +230,7 @@
   font-weight: 700;
   color: var(--c-primary-text);
   padding: 10px 0;
+  margin-top: 15px;
 }
 .details ul {
   padding-left: 14px;
