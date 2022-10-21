@@ -14,7 +14,7 @@ A responsive website build for Iron Curtain Customs located in Houston, Texas.
 ## Page Links
 
 - [HOME](https://swagata-codearts.github.io/iron-curtain-customs/)
-- [SERVICES](https://swagata-codearts.github.io/iron-curtain-customs/services.html/)
+- [SERVICES](https://swagata-codearts.github.io/iron-curtain-customs/services.html)
 - [GALIL 47](https://swagata-codearts.github.io/iron-curtain-customs/galil-47.html)
 - [PRODUCTS](https://swagata-codearts.github.io/iron-curtain-customs/products.html)
 - [CUSTOM GALLERY](https://swagata-codearts.github.io/iron-curtain-customs/custom-gallery.html)
