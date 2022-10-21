@@ -256,11 +256,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
 }
 .custom-header .header-logo {
-margin-right: 0;
+  margin-right: 0;
 }
 .custom-header .nav-item {
-margin-right: 0 !important;
-margin-left: 51px;
+  margin-right: 0 !important;
+  margin-left: 51px;
 }
 .custom-header .nav-item .nav-link.active {
 font-family: var(--ff-primary);
