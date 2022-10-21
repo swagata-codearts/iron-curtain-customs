@@ -426,6 +426,42 @@ transform: scale(1.05);
 overflow: hidden;
 }
 /*Galil-47-inner-end*/
+/*services-inner-start*/
+.services-main-logo {
+  background-color: var(--c-secondary-text);
+  text-align: center;
+}
+.list-1 {
+  display: inline-block;
+  width: 49%;
+}
+.price-list {
+  width: 49%;
+  display: inline-block;
+  text-align: end;
+}
+.ak-parts-list-1 {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+.ak-parts-list-2 {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+.general-services-list-1 {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+.general-services-list-2 {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/*services-inner-end*/
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
 .custom-header .nav-item {margin-left: 51px;}
