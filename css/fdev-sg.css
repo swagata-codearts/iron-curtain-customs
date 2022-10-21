@@ -1045,10 +1045,28 @@ color: var(--c-secondary-text);
 .other-platform-services-1 {min-height: 160px;}
 .other-platform-services-2 {min-height: 160px;}
 .ak-parts-list-2 {margin-top: 0px;}
-.saiga-convertion-1:hover {display: none;}
+/*.saiga-convertion-1:hover {display: none;}
 .saiga-convertion-1:hover .custom-paragraph {display: none;}
 .saiga-convertion-2:hover {display: none;}
-.saiga-convertion-2:hover .custom-paragraph {display: none;}
+.saiga-convertion-2:hover .custom-paragraph {display: none;}*/
+.saiga-convertion-1:hover {
+  background-color: unset;
+  border: 3px dotted var(--c-primary-text);
+  color: var(--c-semi-grey);
+  transform: unset;
+}
+.saiga-convertion-1:hover .custom-paragraph {
+  color: var(--c-semi-grey);
+}
+.saiga-convertion-2:hover {
+  background-color: unset;
+  border: 3px dotted var(--c-primary-text);
+  color: var(--c-semi-grey);
+  transform: unset;
+}
+.saiga-convertion-2:hover .custom-paragraph {
+  color: var(--c-semi-grey);
+}
 /*service-inner-end*/
 }
 
