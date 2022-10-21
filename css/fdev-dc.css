@@ -363,6 +363,7 @@
   .details {padding: 70px 0 50px 0;}
   .details .details-return {padding-bottom: 50px;}
   .details .details-shipping {padding-bottom: 50px;}
+  .details .custom-heading h5{margin-top: 15px;}
   /*----------details-end----------*/
 
   /*-------terms-and-condition-start--------*/
@@ -383,6 +384,7 @@
     .details {padding: 60px 0 40px 0;}
     .details .details-return {padding-bottom: 40px;}
     .details .details-shipping {padding-bottom: 40px;}
+    .details .custom-heading h5{margin-top: 15px;}
     /*----------details-end----------*/
   /*--------details-end-----------*/
     /*-------terms-and-condition-start--------*/
