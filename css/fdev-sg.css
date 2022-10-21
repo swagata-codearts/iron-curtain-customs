@@ -721,28 +721,35 @@ color: var(--c-secondary-text);
 
 /*Responsive-start*/
 @media (min-width: 1850px) and (max-width: 2500px){
+/*(fdev-sg-21/10/2022)*/
 .custom-header .nav-item {margin-left: 51px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
+/*(fdev-sg-21/10/2022)*/
 }
 @media (min-width: 1800px) and (max-width: 1850px){
+/*(fdev-sg-21/10/2022)*/
 .custom-header .nav-item {margin-left: 41px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media (min-width: 1700px) and (max-width: 1800px){
+/*(fdev-sg-21/10/2022)*/
 .custom-header .nav-item {margin-left: 31px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media (min-width: 1600px) and (max-width: 1700px){
+/*(fdev-sg-21/10/2022)*/
 .custom-header .nav-item {margin-left: 21px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end;}
-/*service-inner-start*/
 .service-logo img {width: 30%;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media (min-width: 1366px) and (max-width: 1600px){
+/*(fdev-sg-21/10/2022)*/
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 36px;}
 .navbar-brand.header-logo.ms-0.py-0 img {width: 300px;}
 .custom-header .nav-item .nav-link {font-size: 16px;}
@@ -766,19 +773,17 @@ color: var(--c-secondary-text);
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {width: 85%;}
 .categories-1 {height: 470px;}
 .categories-2 {height: 470px;}
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 500px;}
 .details-content {margin-top: 20px;}
 .details-content .custom-paragraph {line-height: 34px;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .service-logo img {width: 25%;}
 .saiga-convertion-1 {min-height: 270px;}
 .saiga-convertion-2 {min-height: 270px;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
+/*(fdev-sg-21/10/2022)*/
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 36px;}
 .navbar-brand.header-logo.ms-0.py-0 img {width: 300px;}
 .custom-header .nav-item .nav-link {font-size: 14px;}
@@ -802,17 +807,12 @@ color: var(--c-secondary-text);
 .custom-header .ms-auto {margin-left: 35px !important;}
 .main-banner .carousel-indicators {margin-bottom: 28px;}
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {justify-content: end !important;}
-/*About-ICC-inner-start*/
 .hero-img-content {padding-left: 10px;}
 .categories-1 {height: 400px;}
 .categories-2 {height: 400px;}
 .categories-3 {height: 600px;}
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 450px;}
 .details-content {margin-top: 20px;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .service-logo img {width: 25%;}
 .saiga-convertion-1 {min-height: 240px;}
 .saiga-convertion-2 {min-height: 240px;}
@@ -822,10 +822,11 @@ color: var(--c-secondary-text);
 .general-services-list-1 .price-list li {font-size: 16px;}
 .general-services-list-2 .list-1 li {font-size: 16px;}
 .general-services-list-2 .price-list li {font-size: 16px;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
+/*(fdev-sg-21/10/2022)*/
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 26px;}
 .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
 .custom-header .nav-item .nav-link {font-size: 13px;}
@@ -853,18 +854,13 @@ color: var(--c-secondary-text);
 .footer-wrap .footer-break-list li {padding: 8px 0;}
 .footer-wrap .footer-list li {padding: 8px 0px;padding-left: 20px;}
 .footer-logo img {width: 90%;}
-/*About-ICC-inner-start*/
 .hero-img-content {padding-left: 10px;}
 .categories-1 {height: 360px;}
 .categories-2 {height: 360px;}
 .categories-3 {height: 550px;}
 .category-content .custom-paragraph {font-size: 18px;}
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 400px;}
 .details-content {margin-top: 15px;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .service-logo img {width: 25%;}
 .saiga-convertion-1 {min-height: 210px;}
 .saiga-convertion-2 {min-height: 210px;}
@@ -878,10 +874,11 @@ color: var(--c-secondary-text);
 .saiga-convertion-2 .custom-paragraph {padding-right: 60px;}
 .other-platform-services-1 {min-height: 180px;}
 .other-platform-services-2 {min-height: 180px;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+/*(fdev-sg-21/10/2022)*/
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 26px;}
 .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
 .custom-header .nav-item .nav-link {font-size: 13px;}
@@ -909,20 +906,15 @@ color: var(--c-secondary-text);
 .footer-wrap .footer-break-list li {padding: 8px 0;}
 .footer-wrap .footer-list li {padding: 8px 0px;padding-left: 20px;}
 .footer-logo img {width: 90%;}
-/*About-ICC-inner-start*/
 .hero-img-content {padding-left: 10px;}
 .categories-1 {height: 320px;}
 .categories-2 {height: 320px;}
 .categories-3 {height: 500px;}
 .category-content .custom-paragraph {font-size: 18px;}
 .about-us-categories.custom-pad {padding-top: 160px;}
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 350px;}
 .details-content {margin-top: 10px;}
 .details-img .custom-paragraph {font-size: 14px;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .service-logo img {width: 25%;}
 .saiga-convertion-1 {min-height: 210px;}
 .saiga-convertion-2 {min-height: 210px;}
@@ -936,10 +928,11 @@ color: var(--c-secondary-text);
 .saiga-convertion-2 .custom-paragraph {padding-right: 60px;}
 .other-platform-services-1 {min-height: 180px;}
 .other-platform-services-2 {min-height: 180px;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 
-@media only screen and (max-width: 991.98px) {    
+@media only screen and (max-width: 991.98px) {   
+/*(fdev-sg-21/10/2022)*/ 
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 0 15px;}
 .navbar-brand.header-logo.ms-0.py-0 img {width: 200px;}
 .custom-header .nav-item .nav-link {font-size: 13px;margin-left: 10px;}
@@ -989,7 +982,6 @@ color: var(--c-secondary-text);
 .custom-header .navbar-nav.ms-auto.mb-2.mb-lg-0 {text-align: left;margin-bottom: 0rem !important;}
 .main-banner .carousel-indicators [data-bs-target] {width: 6px;height: 6px;margin-right: 15px;}
 .footer-img-2 img {height: 25px;}
-
 .custom-header .navbar-toggler {border: none;height: 35px; float: left;margin: 0; height: 45px; width: 45px; border-radius: 4px;z-index: 1;background-color: var(--c-primary-text);}
 .custom-header .navbar-toggler .icon-bar { width: 24px; background:var(--c-white) ;transition: .5s ease;}
 .custom-header .navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
@@ -998,7 +990,6 @@ color: var(--c-secondary-text);
 .custom-header .navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
 .custom-header .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .custom-header .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
-/*About-ICC-inner-start*/
 .hero-img-content {padding-left: 0px;margin-top: 30px;}
 .about-hero-button {text-align: center;}
 .categories-2 {margin-top: 26px;}
@@ -1017,16 +1008,12 @@ color: var(--c-secondary-text);
 .categories-3 .category-content {top: 90% !important;}
 .categories-3 img {transform: scale(1);}
 .categories-3::after {display: none !important;}
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 345px;}
 .details-content {margin-top: 10px;}
 .details-img .custom-paragraph {font-size: 14px;}
 .galil-details.custom-pad {text-align: center;}
 .galil-details.custom-pad .custom-heading {margin-top: 30px;}
 .galil-47-gallery {padding: 25px 0px 0px 0px;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .service-logo img {width: 35%;}
 .saiga-convertion-1 {min-height: 180px;}
 .saiga-convertion-2 {min-height: 180px;}
@@ -1041,33 +1028,16 @@ color: var(--c-secondary-text);
 .other-platform-services-1 {min-height: 160px;}
 .other-platform-services-2 {min-height: 160px;}
 .ak-parts-list-2 {margin-top: 0px;}
-/*.saiga-convertion-1:hover {display: none;}
-.saiga-convertion-1:hover .custom-paragraph {display: none;}
-.saiga-convertion-2:hover {display: none;}
-.saiga-convertion-2:hover .custom-paragraph {display: none;}*/
-.saiga-convertion-1:hover {
-  background-color: unset;
-  border: 3px dotted var(--c-primary-text);
-  color: var(--c-semi-grey);
-  transform: unset;
-}
-.saiga-convertion-1:hover .custom-paragraph {
-  color: var(--c-semi-grey);
-}
-.saiga-convertion-2:hover {
-  background-color: unset;
-  border: 3px dotted var(--c-primary-text);
-  color: var(--c-semi-grey);
-  transform: unset;
-}
-.saiga-convertion-2:hover .custom-paragraph {
-  color: var(--c-semi-grey);
-}
-/*service-inner-end*/
+.saiga-convertion-1:hover {background-color: unset;border: 3px dotted var(--c-primary-text);color: var(--c-semi-grey);transform: unset;}
+.saiga-convertion-1:hover .custom-paragraph {color: var(--c-semi-grey);}
+.saiga-convertion-2:hover {background-color: unset;border: 3px dotted var(--c-primary-text);color: var(--c-semi-grey);transform: unset;}
+.saiga-convertion-2:hover .custom-paragraph {color: var(--c-semi-grey);}
+/*(fdev-sg-21/10/2022)*/
 }
 
 
 @media (max-width: 767.98px){
+/*(fdev-sg-21/10/2022)*/
 .footer-logo img {width: 40%;}
 .footer-1 {text-align: center;}
 .custom-header {margin-top: 10px;}
@@ -1087,7 +1057,6 @@ color: var(--c-secondary-text);
 .main-banner .carousel-indicators {margin-bottom: 15px;}
 .main-banner .d-block.w-100 {object-fit: cover;height: 38vh;}
 .footer-img-2 img {height: 28px;}
-/*About-ICC-inner-start*/
 .categories-1 {height: 350px;}
 .categories-2 {height: 350px;}
 .categories-3 {height: 350px;}
@@ -1096,16 +1065,13 @@ color: var(--c-secondary-text);
 .categories-1 .category-content {top: 87% !important;}
 .categories-2 .category-content {top: 87% !important;}
 .categories-3 .category-content {top: 80% !important;}
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 365px;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .other-platform-services-2 {min-height: 170px;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media (max-width: 575.98px){
+/*(fdev-sg-21/10/2022)*/
 .main-banner h1 {font-size: 22px;line-height: 30px;}
 .banner-button .custom-button {margin-top: 15px;}
 .main-banner .carousel-caption.d-none.d-md-block {padding: 0 80px;}
@@ -1117,7 +1083,6 @@ color: var(--c-secondary-text);
 .custom-header .navbar-toggler {height: 35px;border-radius: 3px;}
 .footer-logo img {width: 70%;}
 .main-banner .d-block.w-100 {height: 34vh;}
-/*About-ICC-inner-start*/
 .hero-img-content .custom-paragraph {text-align: center;}
 .categories-1 {height: 300px;}
 .categories-2 {height: 300px;}
@@ -1127,12 +1092,8 @@ color: var(--c-secondary-text);
 .categories-1 .category-content {top: 86% !important;}
 .categories-2 .category-content {top: 86% !important;}
 .categories-3 .category-content {top: 79% !important;}
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 610px;}
 .galil-gallery {margin-top: 20px;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .saiga-convertion-1 .custom-paragraph {margin-top: 10px;}
 .saiga-convertion-2 .custom-paragraph {margin-top: 10px;}
 .saiga-convertion-1 {margin-top: 20px;}
@@ -1146,16 +1107,16 @@ color: var(--c-secondary-text);
 .area-work .custom-paragraph {margin-top: 20px;}
 .request-quote-button {margin-top: 20px;}
 .other-platform-services .custom-paragraph {margin-top: 10px;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 
 @media only screen and (max-width: 480.98px) {	
+/*(fdev-sg-21/10/2022)*/
 .main-banner h1 {font-size:20px;line-height: 22px;}
 .main-banner .carousel-indicators {margin-right: 10%;}
 .main-banner .carousel-caption.d-none.d-md-block {padding: 0 15px;}
 .main-banner .carousel-caption.d-none.d-md-block {top: 44%;}
 .custom-header {margin-top: 5px;}
-/*About-ICC-inner-start*/
 .category-content .custom-paragraph {font-size: 12px;}
 .categories-1 {height: 200px;}
 .categories-2 {height: 200px;}
@@ -1166,12 +1127,8 @@ color: var(--c-secondary-text);
 .categories-1 .category-content {top: 79% !important;}
 .categories-2 .category-content {top: 79% !important;}
 .categories-3 .category-content {top: 68% !important;}
-/*About-ICC-inner-end*/
-/*Galil-47-inner-start*/
 .galil-47-gallery {height: 390px;}
 .galil-believing .custom-paragraph {padding: 0 0 20px 0;}
-/*Galil-47-inner-end*/
-/*service-inner-start*/
 .general-services-list-1 {padding: 5px;}
 .general-services-list-2 {padding: 5px;}
 .general-services-list-1 .list-1 li {font-size: 10px;}
@@ -1192,6 +1149,6 @@ color: var(--c-secondary-text);
 .saiga-convertion-2 .custom-paragraph {padding-right: 0px;}
 .other-platform-services-1 h4 {font-size: 20px;}
 .other-platform-services-2 h4 {font-size: 20px;}
-/*service-inner-end*/
+/*(fdev-sg-21/10/2022)*/
 }
 /*Responsive-end*/
