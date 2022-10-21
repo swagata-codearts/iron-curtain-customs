@@ -160,14 +160,14 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 40px;
 }
 .custom-inner-banner {
-  background-image: url(../images/inner-banner.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-  position: relative;
-  z-index: 3;
-  padding: 200px 0 110px 0;
+/*background-image: url(../images/inner-banner.jpg);*/
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+position: relative;
+z-index: 3;
+padding: 200px 0 110px 0;
 }
 .custom-inner-banner::after {
   position: absolute;
