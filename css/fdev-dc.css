@@ -314,7 +314,6 @@
 
 
 @media (min-width:1366px) and (max-width:1600px){
-  /*-----about-us-start--------*/
   .about-us {padding: 100px 0 100px 0;}
   .about-image-wrap {padding-left: 60px;}
   .upper-img img {height: 500px;object-fit: cover;}
