@@ -230,9 +230,10 @@
   font-weight: 700;
   color: var(--c-primary-text);
   padding: 10px 0;
+  margin-top: 15px;
 }
 .details ul {
-  padding-left: 35px;
+  padding-left: 14px;
 }
 .details ul li {
   list-style: disclosure-closed;
@@ -357,6 +358,18 @@
      /*--------custom-gallery-start---------*/
   .light-box-gal .col-12:nth-child(2) .gallery-custom-img a:last-child img {height: 277px;object-fit: cover;}
   /*--------custom-gallery-end---------*/
+
+  /*----------details-start----------*/
+  .details {padding: 70px 0 50px 0;}
+  .details .details-return {padding-bottom: 50px;}
+  .details .details-shipping {padding-bottom: 50px;}
+  .details .custom-heading h5{margin-top: 15px;}
+  /*----------details-end----------*/
+
+  /*-------terms-and-condition-start--------*/
+  .terms-condition{padding: 0 0 70px 0;}
+  .terms-condition .custom-heading h3 {padding-bottom: 25px;}
+  /*-------terms-and-condition-end--------*/
 }
 
 @media (min-width:1024px) and (max-width:1200px){
@@ -367,7 +380,17 @@
   /*--------details-start-----------*/
   .details .details-return::after{width: 1000px;}
   .details .details-shipping::after{width: 1000px;}
+    /*----------details-start----------*/
+    .details {padding: 60px 0 40px 0;}
+    .details .details-return {padding-bottom: 40px;}
+    .details .details-shipping {padding-bottom: 40px;}
+    .details .custom-heading h5{margin-top: 15px;}
+    /*----------details-end----------*/
   /*--------details-end-----------*/
+    /*-------terms-and-condition-start--------*/
+    .terms-condition{padding: 0 0 60px 0;}
+    .terms-condition .custom-heading h3 {padding-bottom: 25px;}
+    /*-------terms-and-condition-end--------*/
   
 }
 
@@ -394,6 +417,17 @@
     .details .details-return::after{width: 850px;}
     .details .details-shipping::after{width: 850px;}
     /*--------details-end-----------*/
+
+        /*----------details-start----------*/
+        .details {padding: 60px 0 40px 0;}
+        .details .details-return {padding-bottom: 40px;}
+        .details .details-shipping {padding-bottom: 40px;}
+        .details .custom-heading h5{margin-top: 10px;}
+        /*----------details-end----------*/
+        /*-------terms-and-condition-start--------*/
+        .terms-condition{padding: 0 0 60px 0;}
+        .terms-condition .custom-heading h3 {padding-bottom: 25px;}
+        /*-------terms-and-condition-end--------*/
   }
  
   
@@ -436,6 +470,17 @@
      .details .details-shipping::after{width: 650px;}
      .details .para-underline {padding-bottom: 20px;}
      /*--------details-end-----------*/
+    /*----------details-start----------*/
+    .details .custom-heading h4{font-size: 16px;}
+    .details {padding: 50px 0 30px 0;}
+    .details .details-return {padding-bottom: 30px;}
+    .details .details-shipping {padding-bottom: 30px;}
+    .details .custom-heading h5{margin-top: 10px;}
+    /*----------details-end----------*/
+    /*-------terms-and-condition-start--------*/
+    .terms-condition{padding: 0 0 50px 0;}
+    .terms-condition .custom-heading h3 {padding-bottom: 20px;}
+    /*-------terms-and-condition-end--------*/
 }
 
 @media only screen and (max-width:767.98px){
@@ -450,7 +495,18 @@
   .details .details-return::after{width: 555px;}
   .details .details-shipping::after{width: 555px;}
  /*--------details-end-----------*/
-}
+     /*----------details-start----------*/
+     .details {padding: 40px 0 20px 0;}
+     .details .details-return {padding-bottom: 20px;}
+     .details .details-shipping {padding-bottom: 20px;}
+     .details .custom-heading h5{margin-top: 10px;}
+     /*----------details-end----------*/
+     /*-------terms-and-condition-start--------*/
+     .terms-condition{padding: 0 0 40px 0;}
+     .terms-condition .custom-heading h3 {padding-bottom: 15px;}
+     .terms-condition .custom-paragraph {font-weight: 600;}
+     /*-------terms-and-condition-end--------*/
+ }
 
 @media only screen and (max-width:575.98px){
   /*about-us-start-*/
@@ -486,6 +542,18 @@
    .details .details-shipping::after{width: 355px;}
    .details .para-underline {padding-bottom: 10px;}
   /*--------details-end-----------*/
+     /*----------details-start----------*/
+     .details .custom-heading h4{font-size: 15px;}
+     .details {padding: 30px 0 20px 0;}
+     .details .details-return {padding-bottom: 20px;}
+     .details .details-shipping {padding-bottom: 20px;}
+     .details .custom-heading h5{margin-top: 8px;}
+     /*----------details-end----------*/
+     /*-------terms-and-condition-start--------*/
+     .terms-condition{padding: 0 0 30px 0;}
+     .terms-condition .custom-heading h3 {padding-bottom: 15px;}
+     .terms-condition .custom-paragraph {font-weight: 500;}
+     /*-------terms-and-condition-end--------*/
 
 }
 
